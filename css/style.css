@@ -1,0 +1,10 @@
+@media screen and (min-width: 600px) {
+  background-color: #f2d9f2 }
+
+  @media screen and (max-width: 900px) {
+    background-color: #ddddee
+  }
+
+  @media screen and (max-width: 1800px) {
+    background-color: #e6f9ff
+  }
