@@ -1,10 +1,10 @@
 
-body {
+.body {
     background-color: #f2d9f2;
 }
 
 @media screen and (min-width: 480px) {
-    body {
+    .body {
         background-color: #ddddee;
     }
 }
