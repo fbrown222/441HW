@@ -1,6 +1,15 @@
-body{background-color: #f2d9f2}
 
-@media screen and (min-width: 400px) {
+body {
+    background-color: #f2d9f2;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: #ddddee;
+    }
+}
+
+/*@media screen and (min-width: 400px) {
   body{background-color:#f2d9f2; }
 }
 
@@ -10,3 +19,4 @@ body{background-color: #f2d9f2}
     body {
     background-color: #ddddee; }
   }
+*/
