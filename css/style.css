@@ -11,7 +11,7 @@ body, html {
 
 /* hero image */
 .hero-image {
-    background-image:("../images/ferrol.jpg");
+    background-image: url("../images/ferrol.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
