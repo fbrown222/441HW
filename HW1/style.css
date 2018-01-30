@@ -99,3 +99,29 @@ body {
     color: #fff;
     background-color: rgba(207, 200, 222, 0.5);
 }
+
+@media (max-width: 865px) {
+    .hero {
+        min-height: 730px;
+    }
+    .hero .title {
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 585px) {
+    .hero {
+        min-height: 500px;
+    }
+    .hero .title {
+        font-size: 14pt;
+        margin: 0;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 445px) {
+    .hero .title {
+        font-size: 12pt;
+    }
+}
