@@ -51,7 +51,7 @@ body {
     margin-top: 0px;
     margin-left: 0em;
     margin-right: 0em;
-    padding: 0em;
+    padding: 1em;
     text-align: center;
     background-color: rgba(254, 226, 255, 0.8);
 }
@@ -80,7 +80,7 @@ body {
 
 .hero .nav a {
     flex-grow: 1;
-    color: #f2d9f2;
+    color: #7a8cff;
     text-decoration: none;
 }
 
