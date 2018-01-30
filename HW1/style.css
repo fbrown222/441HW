@@ -18,7 +18,7 @@ body {
 }
 
 .description {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Times New Roman', serif;
     margin: 25vh auto;
     padding: 1em;
     text-align: center;
@@ -64,7 +64,7 @@ body {
 }
 
 .title h2 {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Rock Salt', cursive;
     font-weight: 300;
     line-height: 0.5em;
 }
