@@ -22,7 +22,7 @@ body {
     text-align: center;
     width: 75%;
     min-width: 300px;
-    background-color: rgba(210, 210, 210, 0.8);
+    background-color: rgba(254, 226, 255, 0.8);
 
 }
 
@@ -52,7 +52,7 @@ body {
     margin-right: 0em;
     padding: 1em;
     text-align: center;
-    background-color: rgba(120, 120, 120, 0.7);
+    background-color: rgba(254, 226, 255, 0.8);
 }
 
 .title h1 {
