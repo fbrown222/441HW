@@ -139,25 +139,37 @@ console.log( countChar("michael", "M") );
 //returns the sum of these numbers.
 
 
-function range(start, end, step = start < end ? +1 : -1) {
-  let Range = [];
+function range(start, end){
+    let myArr = [];
 
-  if (step > 0) {
-    for (let x = start; x <= end; x += step) Range.push(x);
-  } else {
-    for (let x = start; x >= end; x += step) Range.push(x);
-  }
-  return Range;
+    for( let arrNum = start; arrNum<= end; arrNum++){
+        myArr.push(arrNum);
+    }
+
 }
 
-function sum(Range) {
-  let total = 0;
-  for (let value of Range) {
-    total += value;
-  }
-  return total;
-}
-
+// function range(start, end, step) {
+//
+//
+//
+//   let Range = [];
+//
+//   if (step > 0) {
+//     for (let x = start; x <= end; x += step) Range.push(x);
+//   } else {
+//     for (let x = start; x >= end; x += step) Range.push(x);
+//   }
+//   return Range;
+// }
+//
+// function sum(Range) {
+//   let total = 0;
+//   for (let value of Range) {
+//     total += value;
+//   }
+//   return total;
+// }
+//
 //*******I have to comment again and say, what the heck?? I was only able to do about
 //20% of this program on my own. Again, I spent HOURS trying to solve it
 //but had to resort to the solution. I inputed what I could do by myself into the
@@ -171,9 +183,9 @@ function sum(Range) {
 // Function Calls - DO NOT ALTER
 console.log( range(1, 10) );
 // → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-console.log( range(5, 2, -1) );
+//console.log( range(5, 2, -1) );
 // → [5, 4, 3, 2]
-console.log( sum(range(1, 10)) );
+//console.log( sum(range(1, 10)) );
 // → 55
 
 
@@ -192,27 +204,27 @@ console.log( sum(range(1, 10)) );
 //update function to create a new value, and starts from the beginning.
 //
 // When defining the function, you may use a regular loop to do the actual looping.
-
-function loop (test, update, body);{
- for (let value= test(value);
-
-}
-
-/*
-************I know this isn't the full program, but I really don't know where to go from
-here. This is as far as I could get on my own. This week has been tough. */
-
-// Function Calls - DO NOT ALTER
-loop(3, n => n > 0, n => n - 1, console.log);
-// → 3
-// → 2
-// → 1
-
-loop(1, n => n <= 10, n => n + 3, console.log);
-// → 1
-// → 4
-// → 7
-// → 10
+//
+// function loop (test, update, body);{
+//  for (let value= test(value);
+//
+// }
+//
+// /*
+// ************I know this isn't the full program, but I really don't know where to go from
+// here. This is as far as I could get on my own. This week has been tough. */
+//
+// // Function Calls - DO NOT ALTER
+// loop(3, n => n > 0, n => n - 1, console.log);
+// // → 3
+// // → 2
+// // → 1
+//
+// loop(1, n => n <= 10, n => n + 3, console.log);
+// // → 1
+// // → 4
+// // → 7
+// // → 10
 
 
 
