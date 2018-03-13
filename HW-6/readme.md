@@ -1,3 +1,3 @@
 # HW-6 Readme for YOUR_NAME
 
-Please place your response to this week here.
+live site:  https://fbrown222.github.io/441HW/HW-6
