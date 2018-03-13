@@ -31,6 +31,9 @@ let body = document.body;
 body.innerText = "";
 
 /***************************** variables *********************/
+//div
+let noob = document.createElement("div");
+
 //heading
 var heading = document.createElement('h1');
 
@@ -56,3 +59,18 @@ para2.textContent = "Lorem ipsum, lorem ipsum, lorem ipsum. Amen."
 //link to origami instructions
 link.textContent = "Make a paper lily here!"
 link.setAttribute("href","http://www.origami-instructions.com/origami-lily.html");
+
+//pic adjustments
+pic.setAttribute("style","padding:0em; margin:200px");
+
+
+/*********************append************************/
+
+noob.appendChild(heading);
+noob.appendChild(para1);
+noob.appendChild(pic);
+noob.appendChild(para2);
+noob.appendChild(link);
+
+
+body.appendChild(noob);
