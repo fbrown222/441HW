@@ -43,7 +43,7 @@ var para2 = document.createElement('p');
 
 //le image of origami lily
 var pic = new Image (1613, 1893);
-pic.src = "images/lily_logo.png"
+pic.src = "images/lily.jpg"
 
 //link
 var link = document.createElement('a');
