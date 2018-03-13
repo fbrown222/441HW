@@ -62,7 +62,7 @@ link.textContent = "Make a paper lily here!"
 link.setAttribute("href","http://www.origami-instructions.com/origami-lily.html");
 
 //pic adjustments
-pic.setAttribute("style","padding:0em; margin:200px");
+pic.setAttribute("style","padding:0em; margin:100px");
 
 
 /*********************append************************/
