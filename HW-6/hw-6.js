@@ -63,14 +63,19 @@ para2.textContent = "Lorem ipsum, lorem ipsum, lorem ipsum. Amen."
 link.textContent = "Make a paper lily here!"
 link.setAttribute("href","http://www.origami-instructions.com/origami-lily.html");
 
-//pic adjustments
-pic.setAttribute("style","padding:0em; margin:100px; align: center");
-
 
 /**********************STYLE********************************/
 
+//pic adjustments
+pic.setAttribute("style","padding:0em; margin:100px; align: center");
+
+//center div
 noob.setAttribute("style", "text-align: center");
+
+//heading style
 heading.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
+
+//paragraph styles with borders
 para1.setAttribute("style","padding:10px; margin:5px; border: 1px solid #c972ff;font-family: sans-serif; text-align:center; color:#000000");
 para2.setAttribute("style","padding:10px; margin:5px; border: 1px solid #c972ff;font-family: sans-serif; text-align:center; color:#000000");
 
