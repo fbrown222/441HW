@@ -30,7 +30,9 @@ To begin, you should select the body element from the DOM, then remove its exist
 let body = document.body;
 body.innerText = "";
 
-/***************************** variables *********************/
+body.style.background = "#f7d8ff";
+
+/***************************** VARIABLES *********************/
 //div
 let noob = document.createElement("div");
 
@@ -48,7 +50,7 @@ pic.src = "images/lily.jpg"
 //link
 var link = document.createElement('a');
 
-/***************************************************************/
+/**************************TEXT/PIC INPUT*************************************/
 //headings
 heading.textContent = "The Lily"
 
@@ -62,10 +64,19 @@ link.textContent = "Make a paper lily here!"
 link.setAttribute("href","http://www.origami-instructions.com/origami-lily.html");
 
 //pic adjustments
-pic.setAttribute("style","padding:0em; margin:100px");
+pic.setAttribute("style","padding:0em; margin:100px; align: center");
 
 
-/*********************append************************/
+/**********************STYLE********************************/
+
+noob.setAttribute("style", "text-align: center");
+heading.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
+para1.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
+para2.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
+
+
+
+/*********************APPEND************************/
 
 noob.appendChild(heading);
 noob.appendChild(para1);
