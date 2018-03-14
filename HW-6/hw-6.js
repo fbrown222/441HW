@@ -71,8 +71,8 @@ pic.setAttribute("style","padding:0em; margin:100px; align: center");
 
 noob.setAttribute("style", "text-align: center");
 heading.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
-para1.setAttribute("style","padding:1em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
-para2.setAttribute("style","padding:1em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
+para1.setAttribute("style","padding:10px; margin:5px; border: 1px solid #c972ff;font-family: sans-serif; text-align:center; color:#000000");
+para2.setAttribute("style","padding:10px; margin:5px; border: 1px solid #c972ff;font-family: sans-serif; text-align:center; color:#000000");
 
 
 
