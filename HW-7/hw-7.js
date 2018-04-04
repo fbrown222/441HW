@@ -53,6 +53,9 @@ bt_scared.addEventListener("click", showHideText_scared);
 
 //functions//
 
+
+//////////////////// stay still option////////////////////
+
 function showHideText_staystill() {
     if(text_stay_still.hidden){
         text_stay_still.hidden = false;
@@ -87,8 +90,8 @@ function showHideText_staystill() {
 
 
     } else {
-      text_stay_still.hidden = false;
-      text_scream.hidden = true;
+      text_stay_still.hidden = true;
+      text_scream.hidden = false;
       text_investigate.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
@@ -102,10 +105,10 @@ function showHideText_staystill() {
 
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
-      bt_investigate.hidden=false;
-      bt_ignore.hidden=false;
-      bt_make_a_run.hidden=true;
-      bt_grab_cross.hidden=true;
+      bt_investigate.hidden=true;
+      bt_ignore.hidden=true;
+      bt_make_a_run.hidden=false;
+      bt_grab_cross.hidden=false;
       bt_window.hidden=true;
       bt_throw_pic.hidden=true;
       bt_pick_up.hidden=true;
@@ -116,6 +119,9 @@ function showHideText_staystill() {
     }
   }
 
+
+
+//////////////////////////////scream option//////////////////////
   function showHideText_scream() {
       if(text_scream.hidden){
           text_stay_still.hidden = true;
@@ -178,3 +184,137 @@ function showHideText_staystill() {
         bt_scared.hidden=true;
       }
     }
+
+
+
+///////////////////////////investigate option//////////////////////
+
+    function showHideText_investigate() {
+        if(text_investigate.hidden){
+            text_stay_still.hidden = true;
+            text_scream.hidden = true;
+            text_investigate.hidden= false;
+            text_ignore.hidden = true;
+            text_make_a_run.hidden = true;
+            text_grab_cross.hidden = true;
+            text_throw_pic.hidden = true;
+            text_window.hidden = true;
+            text_destroy.hidden = true;
+            text_scared.hidden = true;
+            text_turn_in_friend.hidden = true;
+
+
+            bt_scream.hidden=true;
+            bt_stay_still.hidden=true;
+            bt_investigate.hidden=true;
+            bt_ignore.hidden=true;
+            bt_make_a_run.hidden=true;
+            bt_grab_cross.hidden=true;
+            bt_window.hidden=true;
+            bt_throw_pic.hidden=true;
+            bt_pick_up.hidden=true;
+            bt_restart.hidden=true;
+            bt_turn_in_friend.hidden=false;
+            bt_destroy.hidden=false;
+            bt_scared.hidden=true;
+
+
+
+
+
+        } else {
+          text_stay_still.hidden = true;
+          text_scream.hidden = true;
+          text_investigate.hidden= true;
+          text_ignore.hidden = false;
+          text_make_a_run.hidden = true;
+          text_grab_cross.hidden = true;
+          text_throw_pic.hidden = true;
+          text_window.hidden = true;
+          text_destroy.hidden = true;
+          text_scared.hidden = true;
+          text_turn_in_friend.hidden = true;
+
+
+          bt_scream.hidden=true;
+          bt_stay_still.hidden=true;
+          bt_investigate.hidden=false;
+          bt_ignore.hidden=true;
+          bt_make_a_run.hidden=true;
+          bt_grab_cross.hidden=true;
+          bt_window.hidden=true;
+          bt_throw_pic.hidden=true;
+          bt_pick_up.hidden=true;
+          bt_restart.hidden=true;
+          bt_turn_in_friend.hidden=true;
+          bt_destroy.hidden=true;
+          bt_scared.hidden=false;
+        }
+      }
+
+
+//////////////////////////////ignore//////////////////////////
+
+      function showHideText_scream() {
+          if(text_scream.hidden){
+            text_stay_still.hidden = true;
+            text_scream.hidden = true;
+            text_investigate.hidden= true;
+            text_ignore.hidden = false;
+            text_make_a_run.hidden = true;
+            text_grab_cross.hidden = true;
+            text_throw_pic.hidden = true;
+            text_window.hidden = true;
+            text_destroy.hidden = true;
+            text_scared.hidden = true;
+            text_turn_in_friend.hidden = true;
+
+
+            bt_scream.hidden=true;
+            bt_stay_still.hidden=true;
+            bt_investigate.hidden=false;
+            bt_ignore.hidden=true;
+            bt_make_a_run.hidden=true;
+            bt_grab_cross.hidden=true;
+            bt_window.hidden=true;
+            bt_throw_pic.hidden=true;
+            bt_pick_up.hidden=true;
+            bt_restart.hidden=true;
+            bt_turn_in_friend.hidden=true;
+            bt_destroy.hidden=true;
+            bt_scared.hidden=false;
+
+
+
+
+
+          } else {
+            text_stay_still.hidden = true;
+            text_scream.hidden = true;
+            text_investigate.hidden= false;
+            text_ignore.hidden = true;
+            text_make_a_run.hidden = true;
+            text_grab_cross.hidden = true;
+            text_throw_pic.hidden = true;
+            text_window.hidden = true;
+            text_destroy.hidden = true;
+            text_scared.hidden = true;
+            text_turn_in_friend.hidden = true;
+
+
+            bt_scream.hidden=true;
+            bt_stay_still.hidden=true;
+            bt_investigate.hidden=true;
+            bt_ignore.hidden=true;
+            bt_make_a_run.hidden=true;
+            bt_grab_cross.hidden=true;
+            bt_window.hidden=true;
+            bt_throw_pic.hidden=true;
+            bt_pick_up.hidden=true;
+            bt_restart.hidden=true;
+            bt_turn_in_friend.hidden=false;
+            bt_destroy.hidden=false;
+            bt_scared.hidden=true;
+
+          }
+        }
