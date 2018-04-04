@@ -47,7 +47,7 @@ bt_grab_cross.addEventListener("click", showHideText_cross);
 bt_window.addEventListener("click", showHideText_window);
 bt_throw_pic.addEventListener("click", showHideText_throw);
 bt_pick_up.addEventListener("click", showHideText_pickup);
-bt_restart.addEventListener("click", showHideText_restart);
+bt_restart.addEventListener("click", showHideText_intro);
 bt_turn_in_friend.addEventListener("click", showHideText_friend);
 bt_destroy.addEventListener("click", showHideText_destroy);
 bt_scared.addEventListener("click", showHideText_scared);
@@ -460,6 +460,5 @@ function showHideText_destroy() {
   bt_turn_in_friend.hidden=true;
   bt_destroy.hidden=true;
   bt_scared.hidden=true;
-
 }
 }
