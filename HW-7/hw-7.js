@@ -26,8 +26,10 @@ let bt_grab_cross = document.querySelector('#bgrab-cross');
 
 bt_scream.addEventListener("click", showHideText);
 bt_stay_still.addEventListener("click", showHideText);
-
-
+bt_investigate.addEventListener("click", showHideText);
+bt_ignore.addEventListener("click", showHideText);
+bt_make_a_run.addEventListener("click", showHideText);
+bt_grab_cross.addEventListener("click", showHideText);
 
 function showHideText() {
     if(text_stay_still.hidden){
@@ -51,7 +53,7 @@ function showHideText() {
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
 
-        main_div.hidden=true;
+
 
 
     } else {
@@ -75,4 +77,4 @@ function showHideText() {
       bt_make_a_run.hidden=false;
       bt_grab_cross.hidden=false;
 
-      main_div.hidden=true;
+  
