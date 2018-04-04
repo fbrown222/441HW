@@ -4,6 +4,7 @@
 
 let body = document.body;
 let main_div = document.createElement("div");
+let text_intro = document.querySelector(".intro");
 let text_stay_still = document.querySelector(".stay_still");
 let text_scream = document.querySelector(".scream");
 let text_investigate = document.querySelector(".investigate");
@@ -58,6 +59,7 @@ bt_scared.addEventListener("click", showHideText_scared);
 
 function showHideText_staystill() {
     if(text_stay_still.hidden){
+        text_intro.hidden=true;
         text_stay_still.hidden = false;
         text_scream.hidden = true;
         text_investigate.hidden= true;
@@ -90,6 +92,7 @@ function showHideText_staystill() {
 
 
     } else {
+      text_intro.hidden=true;
       text_stay_still.hidden = true;
       text_scream.hidden = false;
       text_investigate.hidden= true;
@@ -124,6 +127,7 @@ function showHideText_staystill() {
 //////////////////////////////scream option//////////////////////
   function showHideText_scream() {
       if(text_scream.hidden){
+        text_intro.hidden=true;
           text_stay_still.hidden = true;
           text_scream.hidden = false;
           text_investigate.hidden= true;
@@ -156,6 +160,7 @@ function showHideText_staystill() {
 
 
       } else {
+        text_intro.hidden=true;
         text_stay_still.hidden = false;
         text_scream.hidden = true;
         text_investigate.hidden= true;
@@ -191,6 +196,7 @@ function showHideText_staystill() {
 
     function showHideText_investigate() {
         if(text_investigate.hidden){
+            text_intro.hidden=true;
             text_stay_still.hidden = true;
             text_scream.hidden = true;
             text_investigate.hidden= false;
@@ -223,6 +229,7 @@ function showHideText_staystill() {
 
 
         } else {
+          text_intro.hidden=true;
           text_stay_still.hidden = true;
           text_scream.hidden = true;
           text_investigate.hidden= true;
@@ -257,6 +264,7 @@ function showHideText_staystill() {
 
       function showHideText_scream() {
           if(text_scream.hidden){
+            text_intro.hidden=true;
             text_stay_still.hidden = true;
             text_scream.hidden = true;
             text_investigate.hidden= true;
@@ -289,6 +297,7 @@ function showHideText_staystill() {
 
 
           } else {
+            text_intro.hidden=true;
             text_stay_still.hidden = true;
             text_scream.hidden = true;
             text_investigate.hidden= false;
