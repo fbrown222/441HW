@@ -37,23 +37,23 @@ let bt_scared = document.querySelector('#bscared');
 
 //adding button events//
 
-bt_scream.addEventListener("click", showHideText);
-bt_stay_still.addEventListener("click", showHideText);
-bt_investigate.addEventListener("click", showHideText);
-bt_ignore.addEventListener("click", showHideText);
-bt_make_a_run.addEventListener("click", showHideText);
-bt_grab_cross.addEventListener("click", showHideText);
-bt_window.addEventListener("click", showHideText);
-bt_throw_pic.addEventListener("click", showHideText);
-bt_pick_up.addEventListener("click", showHideText);
-bt_restart.addEventListener("click", showHideText);
-bt_turn_in_friend.addEventListener("click", showHideText);
-bt_destroy.addEventListener("click", showHideText);
-bt_scared.addEventListener("click", showHideText);
+bt_scream.addEventListener("click", showHideText_scream);
+bt_stay_still.addEventListener("click", showHideText_staystill);
+bt_investigate.addEventListener("click", showHideText_investigate);
+bt_ignore.addEventListener("click", showHideText_ignore);
+bt_make_a_run.addEventListener("click", showHideText_run);
+bt_grab_cross.addEventListener("click", showHideText_cross);
+bt_window.addEventListener("click", showHideText_window);
+bt_throw_pic.addEventListener("click", showHideText_throw);
+bt_pick_up.addEventListener("click", showHideText_pickup);
+bt_restart.addEventListener("click", showHideText_restart);
+bt_turn_in_friend.addEventListener("click", showHideText_friend);
+bt_destroy.addEventListener("click", showHideText_destroy);
+bt_scared.addEventListener("click", showHideText_scared);
 
 //functions//
 
-function showHideText() {
+function showHideText_staystill() {
     if(text_stay_still.hidden){
         text_stay_still.hidden = false;
         text_scream.hidden = true;
@@ -87,8 +87,8 @@ function showHideText() {
 
 
     } else {
-      text_stay_still.hidden = true;
-      text_scream.hidden = false;
+      text_stay_still.hidden = false;
+      text_scream.hidden = true;
       text_investigate.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
@@ -102,10 +102,10 @@ function showHideText() {
 
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
-      bt_investigate.hidden=true;
-      bt_ignore.hidden=true;
-      bt_make_a_run.hidden=false;
-      bt_grab_cross.hidden=false;
+      bt_investigate.hidden=false;
+      bt_ignore.hidden=false;
+      bt_make_a_run.hidden=true;
+      bt_grab_cross.hidden=true;
       bt_window.hidden=true;
       bt_throw_pic.hidden=true;
       bt_pick_up.hidden=true;
