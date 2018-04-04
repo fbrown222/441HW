@@ -26,6 +26,13 @@ let bt_investigate = document.querySelector('#binvestigate');
 let bt_ignore = document.querySelector('#bignore');
 let bt_make_a_run = document.querySelector('#bmake-a-run');
 let bt_grab_cross = document.querySelector('#bgrab-cross');
+let bt_window = document.querySelector('#bwindow');
+let bt_throw_pic = document.querySelector('#bthrow-pic');
+let bt_pick_up = document.querySelector('#bpick-up');
+let bt_restart = document.querySelector('#brestart');
+let bt_turn_in_friend = document.querySelector('#bturn-in-friend');
+let bt_destroy = document.querySelector('#bdestroy');
+let bt_scared = document.querySelector('#bscared');
 
 
 //adding button events//
@@ -36,7 +43,13 @@ bt_investigate.addEventListener("click", showHideText);
 bt_ignore.addEventListener("click", showHideText);
 bt_make_a_run.addEventListener("click", showHideText);
 bt_grab_cross.addEventListener("click", showHideText);
-
+bt_window.addEventListener("click", showHideText);
+bt_throw_pic.addEventListener("click", showHideText);
+bt_pick_up.addEventListener("click", showHideText);
+bt_restart.addEventListener("click", showHideText);
+bt_turn_in_friend.addEventListener("click", showHideText);
+bt_destroy.addEventListener("click", showHideText);
+bt_scared.addEventListener("click", showHideText);
 
 //functions//
 
@@ -61,6 +74,14 @@ function showHideText() {
         bt_ignore.hidden=false;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
+        bt_window.hidden=true;
+        bt_throw_pic.hidden=true;
+        bt_pick_up.hidden=true;
+        bt_restart.hidden=true;
+        bt_turn_in_friend.hidden=true;
+        bt_destroy.hidden=true;
+        bt_scared.hidden=true;
+
 
 
 
@@ -85,3 +106,10 @@ function showHideText() {
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=false;
       bt_grab_cross.hidden=false;
+      bt_window.hidden=true;
+      bt_throw_pic.hidden=true;
+      bt_pick_up.hidden=true;
+      bt_restart.hidden=true;
+      bt_turn_in_friend.hidden=true;
+      bt_destroy.hidden=true;
+      bt_scared.hidden=true;
