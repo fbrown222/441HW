@@ -113,3 +113,5 @@ function showHideText() {
       bt_turn_in_friend.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+    }
+  }
