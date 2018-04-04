@@ -1,5 +1,6 @@
 
 
+//defining texts//
 
 let body = document.body;
 let main_div = document.createElement("div");
@@ -16,6 +17,9 @@ let text_destroy = document.querySelector(".destroy");
 let text_scared = document.querySelector(".scared");
 let text_turn_in_friend = document.querySelector(".turn_in_friend");
 
+
+//defining butons//
+
 let bt_scream = document.querySelector('#bscream');
 let bt_stay_still = document.querySelector('#bstay_still');
 let bt_investigate = document.querySelector('#binvestigate');
@@ -24,12 +28,17 @@ let bt_make_a_run = document.querySelector('#bmake-a-run');
 let bt_grab_cross = document.querySelector('#bgrab-cross');
 
 
+//adding button events//
+
 bt_scream.addEventListener("click", showHideText);
 bt_stay_still.addEventListener("click", showHideText);
 bt_investigate.addEventListener("click", showHideText);
 bt_ignore.addEventListener("click", showHideText);
 bt_make_a_run.addEventListener("click", showHideText);
 bt_grab_cross.addEventListener("click", showHideText);
+
+
+//functions//
 
 function showHideText() {
     if(text_stay_still.hidden){
@@ -76,5 +85,3 @@ function showHideText() {
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=false;
       bt_grab_cross.hidden=false;
-
-  
