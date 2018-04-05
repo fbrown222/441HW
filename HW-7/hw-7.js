@@ -16,8 +16,10 @@ let text_throw_pic = document.querySelector(".throw_pic");
 let text_pick_up = document.querySelector(".pick_up");
 let text_window = document.querySelector(".window");
 let text_destroy = document.querySelector(".destroy");
+let text_destroy2 = document.querySelector(".destroy2");
 let text_scared = document.querySelector(".scared");
 let text_turn_in_friend = document.querySelector(".turn_in_friend");
+let text_turn_in_friend2 = document.querySelector(".turn_in_friend2");
 
 
 //defining butons//
@@ -34,7 +36,9 @@ let bt_throw_pic = document.querySelector('#bthrow-pic');
 let bt_pick_up = document.querySelector('#bpick-up');
 let bt_restart = document.querySelector('#brestart');
 let bt_turn_in_friend = document.querySelector('#bturn-in-friend');
+let bt_turn_in_friend2 = document.querySelector('#bturn-in-friend2');
 let bt_destroy = document.querySelector('#bdestroy');
+let bt_destroy2 = document.querySelector('#bdestroy2');
 let bt_scared = document.querySelector('#bscared');
 
 
@@ -52,7 +56,9 @@ bt_throw_pic.addEventListener("click", showHideText_throw);
 bt_pick_up.addEventListener("click", showHideText_pickup);
 bt_restart.addEventListener("click", showHideText_intro);
 bt_turn_in_friend.addEventListener("click", showHideText_friend);
+bt_turn_in_friend2.addEventListener("click", showHideText_friend2);
 bt_destroy.addEventListener("click", showHideText_destroy);
+bt_destroy2.addEventListener("click", showHideText_destroy2);
 bt_scared.addEventListener("click", showHideText_scared);
 
 //functions//
@@ -77,8 +83,10 @@ function showHideText_intro() {
         text_throw_pic.hidden = true;
         text_window.hidden = true;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -94,8 +102,10 @@ function showHideText_intro() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=true;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
 
 
 
@@ -113,8 +123,10 @@ function showHideText_intro() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -130,8 +142,10 @@ function showHideText_intro() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=true;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
     }
   }
 
@@ -154,8 +168,10 @@ function showHideText_staystill() {
         text_throw_pic.hidden = true;
         text_window.hidden = true;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -171,8 +187,10 @@ function showHideText_staystill() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=true;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
 
 
 
@@ -190,8 +208,10 @@ function showHideText_staystill() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -207,8 +227,10 @@ function showHideText_staystill() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=true;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
     }
   }
 
@@ -228,8 +250,10 @@ function showHideText_staystill() {
           text_throw_pic.hidden = true;
           text_window.hidden = true;
           text_destroy.hidden = true;
+          text_destroy2.hidden = true;
           text_scared.hidden = true;
           text_turn_in_friend.hidden = true;
+          text_turn_in_friend2.hidden = true;
           text_pick_up.hidden = true;
 
 
@@ -245,8 +269,10 @@ function showHideText_staystill() {
           bt_pick_up.hidden=true;
           bt_restart.hidden=true;
           bt_turn_in_friend.hidden=true;
+          bt_turn_in_friend2.hidden=true;
           bt_destroy.hidden=true;
           bt_scared.hidden=true;
+          bt_destroy2.hidden=true;
 
 
 
@@ -264,8 +290,10 @@ function showHideText_staystill() {
         text_throw_pic.hidden = true;
         text_window.hidden = true;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -281,8 +309,10 @@ function showHideText_staystill() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=true;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
       }
     }
 
@@ -303,8 +333,10 @@ function showHideText_staystill() {
             text_throw_pic.hidden = true;
             text_window.hidden = true;
             text_destroy.hidden = true;
+            text_destroy2.hidden = true;
             text_scared.hidden = true;
             text_turn_in_friend.hidden = true;
+            text_turn_in_friend2.hidden = true;
             text_pick_up.hidden = true;
 
 
@@ -320,8 +352,10 @@ function showHideText_staystill() {
             bt_pick_up.hidden=true;
             bt_restart.hidden=true;
             bt_turn_in_friend.hidden=false;
+            bt_turn_in_friend2.hidden=true;
             bt_destroy.hidden=false;
             bt_scared.hidden=true;
+            bt_destroy2.hidden=true;
 
 
 
@@ -339,8 +373,10 @@ function showHideText_staystill() {
           text_throw_pic.hidden = true;
           text_window.hidden = true;
           text_destroy.hidden = true;
+          text_destroy2.hidden = true;
           text_scared.hidden = true;
           text_turn_in_friend.hidden = true;
+          text_turn_in_friend2.hidden = true;
           text_pick_up.hidden = true;
 
 
@@ -356,8 +392,10 @@ function showHideText_staystill() {
           bt_pick_up.hidden=true;
           bt_restart.hidden=true;
           bt_turn_in_friend.hidden=true;
+          bt_turn_in_friend2.hidden=true;
           bt_destroy.hidden=true;
           bt_scared.hidden=true;
+          bt_destroy2.hidden=true;
         }
       }
 
@@ -377,8 +415,10 @@ function showHideText_staystill() {
             text_throw_pic.hidden = true;
             text_window.hidden = true;
             text_destroy.hidden = true;
+            text_destroy2.hidden = true;
             text_scared.hidden = true;
             text_turn_in_friend.hidden = true;
+            text_turn_in_friend2.hidden = true;
             text_pick_up.hidden = true;
 
 
@@ -394,8 +434,10 @@ function showHideText_staystill() {
             bt_pick_up.hidden=true;
             bt_restart.hidden=true;
             bt_turn_in_friend.hidden=true;
+            bt_turn_in_friend2.hidden=true;
             bt_destroy.hidden=true;
             bt_scared.hidden=false;
+            bt_destroy2.hidden=true;
 
 
 
@@ -413,8 +455,10 @@ function showHideText_staystill() {
             text_throw_pic.hidden = true;
             text_window.hidden = true;
             text_destroy.hidden = true;
+            text_destroy2.hidden = true;
             text_scared.hidden = true;
             text_turn_in_friend.hidden = true;
+            text_turn_in_friend2.hidden = true;
             text_pick_up.hidden = true;
 
 
@@ -430,8 +474,10 @@ function showHideText_staystill() {
             bt_pick_up.hidden=true;
             bt_restart.hidden=true;
             bt_turn_in_friend.hidden=true;
+            bt_turn_in_friend2.hidden=true;
             bt_destroy.hidden=true;
             bt_scared.hidden=true;
+            bt_destroy2.hidden=true;
 
           }
         }
@@ -456,8 +502,10 @@ function showHideText_staystill() {
                 text_throw_pic.hidden = true;
                 text_window.hidden = true;
                 text_destroy.hidden = true;
+                text_destroy2.hidden = true;
                 text_scared.hidden = true;
                 text_turn_in_friend.hidden = true;
+                text_turn_in_friend2.hidden = true;
                 text_pick_up.hidden = true;
 
 
@@ -473,8 +521,10 @@ function showHideText_staystill() {
                 bt_pick_up.hidden=true;
                 bt_restart.hidden=true;
                 bt_turn_in_friend.hidden=false;
+                bt_turn_in_friend2.hidden=true;
                 bt_destroy.hidden=false;
                 bt_scared.hidden=true;
+                bt_destroy2.hidden=true;
 
 
 
@@ -492,8 +542,10 @@ function showHideText_staystill() {
               text_throw_pic.hidden = true;
               text_window.hidden = true;
               text_destroy.hidden = true;
+              text_destroy2.hidden = true;
               text_scared.hidden = true;
               text_turn_in_friend.hidden = true;
+              text_turn_in_friend2.hidden = true;
               text_pick_up.hidden = true;
 
 
@@ -509,8 +561,10 @@ function showHideText_staystill() {
               bt_pick_up.hidden=true;
               bt_restart.hidden=true;
               bt_turn_in_friend.hidden=true;
+              bt_turn_in_friend2.hidden=true;
               bt_destroy.hidden=true;
               bt_scared.hidden=true;
+              bt_destroy2.hidden=true;
             }
           }
 
@@ -532,8 +586,10 @@ function showHideText_staystill() {
               text_throw_pic.hidden = true;
               text_window.hidden = true;
               text_destroy.hidden = true;
+              text_destroy2.hidden = true;
               text_scared.hidden = true;
               text_turn_in_friend.hidden = false;
+              text_turn_in_friend2.hidden = true;
               text_pick_up.hidden = true;
 
 
@@ -549,8 +605,10 @@ function showHideText_staystill() {
               bt_pick_up.hidden=true;
               bt_restart.hidden=false;
               bt_turn_in_friend.hidden=true;
+              bt_turn_in_friend2.hidden=true;
               bt_destroy.hidden=true;
               bt_scared.hidden=true;
+              bt_destroy2.hidden=true;
 
 
             } else {
@@ -565,8 +623,10 @@ function showHideText_staystill() {
               text_throw_pic.hidden = true;
               text_window.hidden = true;
               text_destroy.hidden = true;
+              text_destroy2.hidden = true;
               text_scared.hidden = true;
               text_turn_in_friend.hidden = true;
+              text_turn_in_friend2.hidden = true;
               text_pick_up.hidden = true;
 
 
@@ -582,8 +642,10 @@ function showHideText_staystill() {
               bt_pick_up.hidden=true;
               bt_restart.hidden=true;
               bt_turn_in_friend.hidden=true;
+              bt_turn_in_friend2.hidden=true;
               bt_destroy.hidden=true;
               bt_scared.hidden=true;
+              bt_destroy2.hidden=true;
 
 
 
@@ -607,8 +669,10 @@ function showHideText_destroy() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = false;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -624,8 +688,10 @@ function showHideText_destroy() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=false;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
 
 
 } else {
@@ -640,8 +706,10 @@ function showHideText_destroy() {
   text_throw_pic.hidden = true;
   text_window.hidden = true;
   text_destroy.hidden = true;
+  text_destroy2.hidden = true;
   text_scared.hidden = true;
   text_turn_in_friend.hidden = true;
+  text_turn_in_friend2.hidden = true;
   text_pick_up.hidden = true;
 
 
@@ -657,8 +725,10 @@ function showHideText_destroy() {
   bt_pick_up.hidden=true;
   bt_restart.hidden=true;
   bt_turn_in_friend.hidden=true;
+  bt_turn_in_friend2.hidden=true;
   bt_destroy.hidden=true;
   bt_scared.hidden=true;
+  bt_destroy2.hidden=true;
 }
 }
 
@@ -680,8 +750,10 @@ function showHideText_run() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -697,8 +769,10 @@ function showHideText_run() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=true;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
 
 
 
@@ -714,8 +788,10 @@ function showHideText_run() {
       text_throw_pic.hidden = true;
       text_window.hidden = false;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -731,9 +807,10 @@ function showHideText_run() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=false;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
-
+      bt_destroy2.hidden=true;
 
     }
   }
@@ -754,8 +831,10 @@ function showHideText_run() {
         text_throw_pic.hidden = true;
         text_window.hidden = false;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -771,8 +850,10 @@ function showHideText_run() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=false;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
 
 
 
@@ -788,8 +869,10 @@ function showHideText_run() {
         text_throw_pic.hidden = true;
         text_window.hidden = true;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -805,8 +888,10 @@ function showHideText_run() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=true;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
 
 
       }
@@ -830,8 +915,10 @@ function showHideText_run() {
           text_throw_pic.hidden = true;
           text_window.hidden = true;
           text_destroy.hidden = true;
+          text_destroy2.hidden = true;
           text_scared.hidden = false;
           text_turn_in_friend.hidden = true;
+          text_turn_in_friend2.hidden = true;
           text_pick_up.hidden = true;
 
 
@@ -847,8 +934,10 @@ function showHideText_run() {
           bt_pick_up.hidden=true;
           bt_restart.hidden=false;
           bt_turn_in_friend.hidden=true;
+          bt_turn_in_friend2.hidden=true;
           bt_destroy.hidden=true;
           bt_scared.hidden=true;
+          bt_destroy2.hidden=true;
 
 
         } else {
@@ -863,8 +952,10 @@ function showHideText_run() {
           text_throw_pic.hidden = true;
           text_window.hidden = true;
           text_destroy.hidden = true;
+          text_destroy2.hidden = true;
           text_scared.hidden = true;
           text_turn_in_friend.hidden = true;
+          text_turn_in_friend2.hidden = true;
           text_pick_up.hidden = true;
 
 
@@ -880,8 +971,10 @@ function showHideText_run() {
           bt_pick_up.hidden=true;
           bt_restart.hidden=true;
           bt_turn_in_friend.hidden=true;
+          bt_turn_in_friend2.hidden=true;
           bt_destroy.hidden=true;
           bt_scared.hidden=true;
+          bt_destroy2.hidden=true;
 
 
         }
@@ -904,8 +997,10 @@ function showHideText_cross() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -921,8 +1016,10 @@ function showHideText_cross() {
       bt_pick_up.hidden=false;
       bt_restart.hidden=true;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
 
 
     } else {
@@ -937,8 +1034,10 @@ function showHideText_cross() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
       bt_scream.hidden=true;
@@ -953,8 +1052,10 @@ function showHideText_cross() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=true;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
 
 
     }
@@ -979,8 +1080,10 @@ function showHideText_cross() {
         text_throw_pic.hidden = false;
         text_window.hidden = true;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -996,8 +1099,10 @@ function showHideText_cross() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=false;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
 
 
       } else {
@@ -1012,8 +1117,10 @@ function showHideText_cross() {
         text_throw_pic.hidden = true;
         text_window.hidden = true;
         text_destroy.hidden = true;
+        text_destroy2.hidden = true;
         text_scared.hidden = true;
         text_turn_in_friend.hidden = true;
+        text_turn_in_friend2.hidden = true;
         text_pick_up.hidden = true;
 
 
@@ -1029,8 +1136,10 @@ function showHideText_cross() {
         bt_pick_up.hidden=true;
         bt_restart.hidden=true;
         bt_turn_in_friend.hidden=true;
+        bt_turn_in_friend2.hidden=true;
         bt_destroy.hidden=true;
         bt_scared.hidden=true;
+        bt_destroy2.hidden=true;
 
 
       }
@@ -1055,8 +1164,10 @@ function showHideText_pickup() {
       text_throw_pic.hidden = true;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = false;
 
 
@@ -1072,8 +1183,10 @@ function showHideText_pickup() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=true;
       bt_turn_in_friend.hidden=false;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=false;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
 
 
     } else {
@@ -1088,8 +1201,10 @@ function showHideText_pickup() {
       text_throw_pic.hidden = false;
       text_window.hidden = true;
       text_destroy.hidden = true;
+      text_destroy2.hidden = true;
       text_scared.hidden = true;
       text_turn_in_friend.hidden = true;
+      text_turn_in_friend2.hidden = true;
       text_pick_up.hidden = true;
 
 
@@ -1105,8 +1220,10 @@ function showHideText_pickup() {
       bt_pick_up.hidden=true;
       bt_restart.hidden=false;
       bt_turn_in_friend.hidden=true;
+      bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
       bt_scared.hidden=true;
+      bt_destroy2.hidden=true;
 
 
     }
