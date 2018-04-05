@@ -8,6 +8,7 @@ let text_intro = document.querySelector(".intro");
 let text_stay_still = document.querySelector(".stay_still");
 let text_scream = document.querySelector(".scream");
 let text_investigate = document.querySelector(".investigate");
+let text_investigate2 = document.querySelector(".investigate2");
 let text_ignore = document.querySelector(".ignore");
 let text_make_a_run = document.querySelector(".make_a_run");
 let text_grab_cross = document.querySelector(".grab_cross");
@@ -24,6 +25,7 @@ let text_turn_in_friend = document.querySelector(".turn_in_friend");
 let bt_scream = document.querySelector('#bscream');
 let bt_stay_still = document.querySelector('#bstay_still');
 let bt_investigate = document.querySelector('#binvestigate');
+let bt_investigate2 = document.querySelector('#binvestigate2');
 let bt_ignore = document.querySelector('#bignore');
 let bt_make_a_run = document.querySelector('#bmake-a-run');
 let bt_grab_cross = document.querySelector('#bgrab-cross');
@@ -41,6 +43,7 @@ let bt_scared = document.querySelector('#bscared');
 bt_scream.addEventListener("click", showHideText_scream);
 bt_stay_still.addEventListener("click", showHideText_staystill);
 bt_investigate.addEventListener("click", showHideText_investigate);
+bt_investigate2.addEventListener("click", showHideText_investigate2);
 bt_ignore.addEventListener("click", showHideText_ignore);
 bt_make_a_run.addEventListener("click", showHideText_run);
 bt_grab_cross.addEventListener("click", showHideText_cross);
@@ -67,6 +70,7 @@ function showHideText_intro() {
         text_stay_still.hidden = true;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -81,6 +85,7 @@ function showHideText_intro() {
         bt_scream.hidden=false;
         bt_stay_still.hidden=false;
         bt_investigate.hidden=true;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=true;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -101,6 +106,7 @@ function showHideText_intro() {
       text_stay_still.hidden = true;
       text_scream.hidden = false;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = true;
@@ -116,6 +122,7 @@ function showHideText_intro() {
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
       bt_ignore.hidden=true;
+      bt_investigate2.hidden=true;
       bt_make_a_run.hidden=false;
       bt_grab_cross.hidden=false;
       bt_window.hidden=true;
@@ -140,6 +147,7 @@ function showHideText_staystill() {
         text_stay_still.hidden = false;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -154,6 +162,7 @@ function showHideText_staystill() {
         bt_scream.hidden=true;
         bt_stay_still.hidden=true;
         bt_investigate.hidden=false;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=false;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -174,6 +183,7 @@ function showHideText_staystill() {
       text_stay_still.hidden = true;
       text_scream.hidden = false;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = true;
@@ -188,6 +198,7 @@ function showHideText_staystill() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=false;
       bt_grab_cross.hidden=false;
@@ -210,6 +221,7 @@ function showHideText_staystill() {
           text_stay_still.hidden = true;
           text_scream.hidden = false;
           text_investigate.hidden= true;
+          text_investigate2.hidden= true;
           text_ignore.hidden = true;
           text_make_a_run.hidden = true;
           text_grab_cross.hidden = true;
@@ -224,6 +236,7 @@ function showHideText_staystill() {
           bt_scream.hidden=true;
           bt_stay_still.hidden=true;
           bt_investigate.hidden=true;
+          bt_investigate2.hidden=true;
           bt_ignore.hidden=true;
           bt_make_a_run.hidden=false;
           bt_grab_cross.hidden=false;
@@ -244,6 +257,7 @@ function showHideText_staystill() {
         text_stay_still.hidden = false;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -258,6 +272,7 @@ function showHideText_staystill() {
         bt_scream.hidden=true;
         bt_stay_still.hidden=true;
         bt_investigate.hidden=false;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=false;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -281,6 +296,7 @@ function showHideText_staystill() {
             text_stay_still.hidden = true;
             text_scream.hidden = true;
             text_investigate.hidden= false;
+            text_investigate2.hidden= true;
             text_ignore.hidden = true;
             text_make_a_run.hidden = true;
             text_grab_cross.hidden = true;
@@ -295,6 +311,7 @@ function showHideText_staystill() {
             bt_scream.hidden=true;
             bt_stay_still.hidden=true;
             bt_investigate.hidden=true;
+            bt_investigate2.hidden=true;
             bt_ignore.hidden=true;
             bt_make_a_run.hidden=true;
             bt_grab_cross.hidden=true;
@@ -315,6 +332,7 @@ function showHideText_staystill() {
           text_stay_still.hidden = true;
           text_scream.hidden = true;
           text_investigate.hidden= true;
+          text_investigate2.hidden= true;
           text_ignore.hidden = true;
           text_make_a_run.hidden = true;
           text_grab_cross.hidden = true;
@@ -329,6 +347,7 @@ function showHideText_staystill() {
           bt_scream.hidden=false;
           bt_stay_still.hidden=false;
           bt_investigate.hidden=true;
+          bt_investigate2.hidden=true;
           bt_ignore.hidden=true;
           bt_make_a_run.hidden=true;
           bt_grab_cross.hidden=true;
@@ -351,6 +370,7 @@ function showHideText_staystill() {
             text_stay_still.hidden = true;
             text_scream.hidden = true;
             text_investigate.hidden= true;
+            text_investigate2.hidden= true;
             text_ignore.hidden = false;
             text_make_a_run.hidden = true;
             text_grab_cross.hidden = true;
@@ -364,7 +384,8 @@ function showHideText_staystill() {
 
             bt_scream.hidden=true;
             bt_stay_still.hidden=true;
-            bt_investigate.hidden=false;
+            bt_investigate.hidden=true;
+            bt_investigate2.hidden=false;
             bt_ignore.hidden=true;
             bt_make_a_run.hidden=true;
             bt_grab_cross.hidden=true;
@@ -385,6 +406,7 @@ function showHideText_staystill() {
             text_stay_still.hidden = true;
             text_scream.hidden = true;
             text_investigate.hidden= true;
+            text_investigate2.hidden= true;
             text_ignore.hidden = true;
             text_make_a_run.hidden = true;
             text_grab_cross.hidden = true;
@@ -399,6 +421,7 @@ function showHideText_staystill() {
             bt_scream.hidden=false;
             bt_stay_still.hidden=false;
             bt_investigate.hidden=true;
+            bt_investigate2.hidden=true;
             bt_ignore.hidden=true;
             bt_make_a_run.hidden=true;
             bt_grab_cross.hidden=true;
@@ -414,6 +437,85 @@ function showHideText_staystill() {
         }
 
 
+
+
+        ///////////////////////   investigate2   ////////////////////////
+
+
+
+        function showHideText_investigate2() {
+            if(text_investigate.hidden){
+                text_intro.hidden=true;
+                text_stay_still.hidden = true;
+                text_scream.hidden = true;
+                text_investigate.hidden= true;
+                text_investigate2.hidden= false;
+                text_ignore.hidden = true;
+                text_make_a_run.hidden = true;
+                text_grab_cross.hidden = true;
+                text_throw_pic.hidden = true;
+                text_window.hidden = true;
+                text_destroy.hidden = true;
+                text_scared.hidden = true;
+                text_turn_in_friend.hidden = true;
+                text_pick_up.hidden = true;
+
+
+                bt_scream.hidden=true;
+                bt_stay_still.hidden=true;
+                bt_investigate.hidden=true;
+                bt_investigate2.hidden=true;
+                bt_ignore.hidden=true;
+                bt_make_a_run.hidden=true;
+                bt_grab_cross.hidden=true;
+                bt_window.hidden=true;
+                bt_throw_pic.hidden=true;
+                bt_pick_up.hidden=true;
+                bt_restart.hidden=true;
+                bt_turn_in_friend.hidden=false;
+                bt_destroy.hidden=false;
+                bt_scared.hidden=true;
+
+
+
+
+
+            } else {
+              text_intro.hidden=false;
+              text_stay_still.hidden = true;
+              text_scream.hidden = true;
+              text_investigate.hidden= true;
+              text_investigate2.hidden= true;
+              text_ignore.hidden = true;
+              text_make_a_run.hidden = true;
+              text_grab_cross.hidden = true;
+              text_throw_pic.hidden = true;
+              text_window.hidden = true;
+              text_destroy.hidden = true;
+              text_scared.hidden = true;
+              text_turn_in_friend.hidden = true;
+              text_pick_up.hidden = true;
+
+
+              bt_scream.hidden=false;
+              bt_stay_still.hidden=false;
+              bt_investigate.hidden=true;
+              bt_investigate2.hidden=true;
+              bt_ignore.hidden=true;
+              bt_make_a_run.hidden=true;
+              bt_grab_cross.hidden=true;
+              bt_window.hidden=true;
+              bt_throw_pic.hidden=true;
+              bt_pick_up.hidden=true;
+              bt_restart.hidden=true;
+              bt_turn_in_friend.hidden=true;
+              bt_destroy.hidden=true;
+              bt_scared.hidden=true;
+            }
+          }
+
+
+
         ////////////////////   turn in   //////////////////////
 
 
@@ -423,6 +525,7 @@ function showHideText_staystill() {
               text_stay_still.hidden = true;
               text_scream.hidden = true;
               text_investigate.hidden= true;
+              text_investigate2.hidden= true;
               text_ignore.hidden = true;
               text_make_a_run.hidden = true;
               text_grab_cross.hidden = true;
@@ -437,6 +540,7 @@ function showHideText_staystill() {
               bt_scream.hidden=true;
               bt_stay_still.hidden=true;
               bt_investigate.hidden=true;
+              bt_investigate2.hidden=true;
               bt_ignore.hidden=true;
               bt_make_a_run.hidden=true;
               bt_grab_cross.hidden=true;
@@ -454,6 +558,7 @@ function showHideText_staystill() {
               text_stay_still.hidden = true;
               text_scream.hidden = true;
               text_investigate.hidden= true;
+              text_investigate2.hidden= true;
               text_ignore.hidden = true;
               text_make_a_run.hidden = true;
               text_grab_cross.hidden = true;
@@ -468,6 +573,7 @@ function showHideText_staystill() {
               bt_scream.hidden=false;
               bt_stay_still.hidden=false;
               bt_investigate.hidden=true;
+              bt_investigate2.hidden=true;
               bt_ignore.hidden=true;
               bt_make_a_run.hidden=true;
               bt_grab_cross.hidden=true;
@@ -494,6 +600,7 @@ function showHideText_destroy() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = true;
@@ -508,6 +615,7 @@ function showHideText_destroy() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
@@ -525,6 +633,7 @@ function showHideText_destroy() {
   text_stay_still.hidden = true;
   text_scream.hidden = true;
   text_investigate.hidden= true;
+  text_investigate2.hidden= true;
   text_ignore.hidden = true;
   text_make_a_run.hidden = true;
   text_grab_cross.hidden = true;
@@ -539,6 +648,7 @@ function showHideText_destroy() {
   bt_scream.hidden=false;
   bt_stay_still.hidden=false;
   bt_investigate.hidden=true;
+  bt_investigate2.hidden=true;
   bt_ignore.hidden=true;
   bt_make_a_run.hidden=true;
   bt_grab_cross.hidden=true;
@@ -563,6 +673,7 @@ function showHideText_run() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = false;
       text_grab_cross.hidden = true;
@@ -577,6 +688,7 @@ function showHideText_run() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
@@ -595,6 +707,7 @@ function showHideText_run() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = true;
@@ -609,6 +722,7 @@ function showHideText_run() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
@@ -633,6 +747,7 @@ function showHideText_run() {
         text_stay_still.hidden = true;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -647,6 +762,7 @@ function showHideText_run() {
         bt_scream.hidden=true;
         bt_stay_still.hidden=true;
         bt_investigate.hidden=true;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=true;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -665,6 +781,7 @@ function showHideText_run() {
         text_stay_still.hidden = true;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -679,6 +796,7 @@ function showHideText_run() {
         bt_scream.hidden=false;
         bt_stay_still.hidden=false;
         bt_investigate.hidden=true;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=true;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -705,6 +823,7 @@ function showHideText_run() {
           text_stay_still.hidden = true;
           text_scream.hidden = true;
           text_investigate.hidden= true;
+          text_investigate2.hidden= true;
           text_ignore.hidden = true;
           text_make_a_run.hidden = true;
           text_grab_cross.hidden = true;
@@ -719,6 +838,7 @@ function showHideText_run() {
           bt_scream.hidden=true;
           bt_stay_still.hidden=true;
           bt_investigate.hidden=true;
+          bt_investigate2.hidden=true;
           bt_ignore.hidden=true;
           bt_make_a_run.hidden=true;
           bt_grab_cross.hidden=true;
@@ -736,6 +856,7 @@ function showHideText_run() {
           text_stay_still.hidden = true;
           text_scream.hidden = true;
           text_investigate.hidden= true;
+          text_investigate2.hidden= true;
           text_ignore.hidden = true;
           text_make_a_run.hidden = true;
           text_grab_cross.hidden = true;
@@ -750,6 +871,7 @@ function showHideText_run() {
           bt_scream.hidden=false;
           bt_stay_still.hidden=false;
           bt_investigate.hidden=true;
+          bt_investigate2.hidden=true;
           bt_ignore.hidden=true;
           bt_make_a_run.hidden=true;
           bt_grab_cross.hidden=true;
@@ -775,6 +897,7 @@ function showHideText_cross() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = false;
@@ -789,6 +912,7 @@ function showHideText_cross() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
@@ -806,6 +930,7 @@ function showHideText_cross() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = false;
       text_grab_cross.hidden = true;
@@ -819,6 +944,7 @@ function showHideText_cross() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
@@ -846,6 +972,7 @@ function showHideText_cross() {
         text_stay_still.hidden = true;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -860,6 +987,7 @@ function showHideText_cross() {
         bt_scream.hidden=true;
         bt_stay_still.hidden=true;
         bt_investigate.hidden=true;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=true;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -877,6 +1005,7 @@ function showHideText_cross() {
         text_stay_still.hidden = true;
         text_scream.hidden = true;
         text_investigate.hidden= true;
+        text_investigate2.hidden= true;
         text_ignore.hidden = true;
         text_make_a_run.hidden = true;
         text_grab_cross.hidden = true;
@@ -891,6 +1020,7 @@ function showHideText_cross() {
         bt_scream.hidden=false;
         bt_stay_still.hidden=false;
         bt_investigate.hidden=true;
+        bt_investigate2.hidden=true;
         bt_ignore.hidden=true;
         bt_make_a_run.hidden=true;
         bt_grab_cross.hidden=true;
@@ -918,6 +1048,7 @@ function showHideText_pickup() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = true;
@@ -932,6 +1063,7 @@ function showHideText_pickup() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
@@ -949,6 +1081,7 @@ function showHideText_pickup() {
       text_stay_still.hidden = true;
       text_scream.hidden = true;
       text_investigate.hidden= true;
+      text_investigate2.hidden= true;
       text_ignore.hidden = true;
       text_make_a_run.hidden = true;
       text_grab_cross.hidden = true;
@@ -963,6 +1096,7 @@ function showHideText_pickup() {
       bt_scream.hidden=true;
       bt_stay_still.hidden=true;
       bt_investigate.hidden=true;
+      bt_investigate2.hidden=true;
       bt_ignore.hidden=true;
       bt_make_a_run.hidden=true;
       bt_grab_cross.hidden=true;
