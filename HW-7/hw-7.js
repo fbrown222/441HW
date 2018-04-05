@@ -381,10 +381,10 @@ function showHideText_staystill() {
 
 
           } else {
-            text_intro.hidden=true;
+            text_intro.hidden=false;
             text_stay_still.hidden = true;
             text_scream.hidden = true;
-            text_investigate.hidden= false;
+            text_investigate.hidden= true;
             text_ignore.hidden = true;
             text_make_a_run.hidden = true;
             text_grab_cross.hidden = true;
@@ -396,8 +396,8 @@ function showHideText_staystill() {
             text_pick_up.hidden = true;
 
 
-            bt_scream.hidden=true;
-            bt_stay_still.hidden=true;
+            bt_scream.hidden=false;
+            bt_stay_still.hidden=false;
             bt_investigate.hidden=true;
             bt_ignore.hidden=true;
             bt_make_a_run.hidden=true;
@@ -406,8 +406,8 @@ function showHideText_staystill() {
             bt_throw_pic.hidden=true;
             bt_pick_up.hidden=true;
             bt_restart.hidden=true;
-            bt_turn_in_friend.hidden=false;
-            bt_destroy.hidden=false;
+            bt_turn_in_friend.hidden=true;
+            bt_destroy.hidden=true;
             bt_scared.hidden=true;
 
           }
