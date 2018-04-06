@@ -7,6 +7,7 @@ let header = document.createElement("h1");
 let para = document.createElement("p");
 let main_div = document.createElement("div");
 let form = document.querySelector(".nameForm");
+let storage = document.querySelector(".storageDiv")
 let text_intro = document.querySelector(".intro");
 let text_stay_still = document.querySelector(".stay_still");
 let text_scream = document.querySelector(".scream");
@@ -76,7 +77,7 @@ bt_restart.addEventListener("click", showHideText_intro);
 
 //////////////////////   input name   ///////////////////////////////
 
-/*  function insertText() {
+ function insertText() {
     let textIn;
     textIn = document.querySelector("#textIn1").value;
 
@@ -91,7 +92,7 @@ bt_restart.addEventListener("click", showHideText_intro);
     storage.appendChild(newP);
 }
 
-  document.querySelector("#runButton").addEventListener( 'click',insertText);  */
+  document.querySelector("#runButton").addEventListener( 'click',insertText);
 
 ///////////////////////   intro    /////////////////////////////////////////
 
@@ -1685,4 +1686,7 @@ function showHideText_pickup() {
 
 
 
-//  body.appendChild(div);
+
+div.appendChild(header);
+div.appendChild(para);
+body.appendChild(div);
