@@ -336,7 +336,8 @@ function showHideText_staystill() {
           bt_turn_in_friend3.hidden=true;
 
 
-
+          body.style.background = "#d442f4";
+                   setTimeout(()=>{body.style.background = "#d442f4" ;}, 3000 );
 
 
       } else {
