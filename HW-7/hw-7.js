@@ -67,6 +67,7 @@ bt_destroy.addEventListener("click", showHideText_destroy);
 bt_destroy2.addEventListener("click", showHideText_destroy2);
 bt_destroy3.addEventListener("click", showHideText_destroy3);
 //bt_scared.addEventListener("click", showHideText_scared);
+bt_restart.addEventListener("click", showHideText_intro);
 
 //functions//
 
@@ -398,7 +399,7 @@ function showHideText_staystill() {
             bt_window.hidden=true;
             bt_throw_pic.hidden=true;
             bt_pick_up.hidden=true;
-            bt_restart.hidden=true;
+            bt_restart.hidden=false;
             bt_turn_in_friend.hidden=true;
             bt_turn_in_friend2.hidden=true;
             bt_destroy.hidden=true;
@@ -575,7 +576,7 @@ function showHideText_staystill() {
                 bt_window.hidden=true;
                 bt_throw_pic.hidden=true;
                 bt_pick_up.hidden=true;
-                bt_restart.hidden=true;
+                bt_restart.hidden=false;
                 bt_turn_in_friend.hidden=true;
                 bt_turn_in_friend2.hidden=true;
                 bt_destroy.hidden=true;
@@ -751,7 +752,7 @@ function showHideText_staystill() {
                 bt_window.hidden=true;
                 bt_throw_pic.hidden=true;
                 bt_pick_up.hidden=true;
-                bt_restart.hidden=true;
+                bt_restart.hidden=false;
                 bt_turn_in_friend.hidden=true;
                 bt_turn_in_friend2.hidden=true;
                 bt_destroy.hidden=true;
@@ -840,7 +841,7 @@ function showHideText_staystill() {
                   bt_window.hidden=true;
                   bt_throw_pic.hidden=true;
                   bt_pick_up.hidden=true;
-                  bt_restart.hidden=true;
+                  bt_restart.hidden=false;
                   bt_turn_in_friend.hidden=true;
                   bt_turn_in_friend2.hidden=true;
                   bt_destroy.hidden=true;
@@ -1016,7 +1017,7 @@ function showHideText_destroy2() {
       bt_window.hidden=true;
       bt_throw_pic.hidden=true;
       bt_pick_up.hidden=true;
-      bt_restart.hidden=true;
+      bt_restart.hidden=false;
       bt_turn_in_friend.hidden=true;
       bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
@@ -1101,7 +1102,7 @@ function showHideText_destroy3() {
       bt_window.hidden=true;
       bt_throw_pic.hidden=true;
       bt_pick_up.hidden=true;
-      bt_restart.hidden=true;
+      bt_restart.hidden=false;
       bt_turn_in_friend.hidden=true;
       bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
@@ -1630,7 +1631,7 @@ function showHideText_pickup() {
       bt_window.hidden=true;
       bt_throw_pic.hidden=true;
       bt_pick_up.hidden=true;
-      bt_restart.hidden=true;
+      bt_restart.hidden=false;
       bt_turn_in_friend.hidden=true;
       bt_turn_in_friend2.hidden=true;
       bt_destroy.hidden=true;
