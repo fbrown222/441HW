@@ -92,6 +92,13 @@ bt_restart.addEventListener("click", showHideText_intro);
     storage.appendChild(newP);
 }
 
+document.querySelector(".form1").addEventListener('keypress', (event) => {
+    if (event.keyCode == 13) {
+        event.preventDefault();
+        grabText();
+    }
+});
+
   document.querySelector("#runButton").addEventListener( 'click',insertText);
 
 ///////////////////////   intro    /////////////////////////////////////////
