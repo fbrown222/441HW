@@ -392,10 +392,10 @@ function showHideText_staystill() {
             bt_pick_up.hidden=true;
             bt_restart.hidden=true;
             bt_turn_in_friend.hidden=true;
-            bt_turn_in_friend2.hidden=false;
+            bt_turn_in_friend2.hidden=true;
             bt_destroy.hidden=true;
             bt_scared.hidden=true;
-            bt_destroy2.hidden=false;
+            bt_destroy2.hidden=true;
             bt_destroy3.hidden=true;
             bt_turn_in_friend3.hidden=true;
 
