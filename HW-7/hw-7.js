@@ -3,6 +3,8 @@
 //defining texts//
 
 let body = document.body;
+let header = document.createElement("h1");
+let para = document.createElement("p");
 let main_div = document.createElement("div");
 let text_intro = document.querySelector(".intro");
 let text_stay_still = document.querySelector(".stay_still");
