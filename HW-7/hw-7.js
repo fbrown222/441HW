@@ -5,6 +5,7 @@
 let body = document.body;
 let header = document.createElement("h1");
 let para = document.createElement("p");
+let Para = document.createElement("P");
 let main_div = document.createElement("div");
 let form = document.querySelector(".nameForm");
 let storage = document.querySelector(".storageDiv")
@@ -1696,4 +1697,5 @@ function showHideText_pickup() {
 
 div.appendChild(header);
 div.appendChild(para);
+div.appendChild(Para);
 body.appendChild(div);
