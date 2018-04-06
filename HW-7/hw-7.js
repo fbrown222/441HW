@@ -1727,3 +1727,7 @@ function showHideText_pickup() {
 
     }
   }
+
+
+
+  body.appendChild(div);
