@@ -75,7 +75,7 @@ bt_scared.addEventListener("click", showHideText_scared);
 
 //////////////////////   input name   ///////////////////////////////
 
-function insertText() {
+/*  function insertText() {
     let textIn;
     textIn = document.querySelector("#textIn1").value;
 
@@ -90,7 +90,7 @@ function insertText() {
     storage.appendChild(newP);
 }
 
-  document.querySelector("#runButton").addEventListener( 'click',insertText);
+  document.querySelector("#runButton").addEventListener( 'click',insertText);  */
 
 ///////////////////////   intro    /////////////////////////////////////////
 
