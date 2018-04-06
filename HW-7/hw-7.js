@@ -78,7 +78,7 @@ bt_restart.addEventListener("click", showHideText_intro);
 
 //////////////////////   input name   ///////////////////////////////
 
- function insertText() {
+ /*function insertText() {
     let textIn;
     textIn = document.querySelector("#textIn1").value;
 
@@ -100,7 +100,7 @@ document.querySelector(".form1").addEventListener('keypress', (event) => {
     }
 });
 
-  document.querySelector("#runButton").addEventListener( 'click',insertText);
+  document.querySelector("#runButton").addEventListener( 'click',insertText);  */
 
 ///////////////////////   intro    /////////////////////////////////////////
 
