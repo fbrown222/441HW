@@ -6,6 +6,7 @@ let body = document.body;
 let header = document.createElement("h1");
 let para = document.createElement("p");
 let main_div = document.createElement("div");
+let form = document.querySelector(".nameInput");
 let text_intro = document.querySelector(".intro");
 let text_stay_still = document.querySelector(".stay_still");
 let text_scream = document.querySelector(".scream");
@@ -70,6 +71,29 @@ bt_scared.addEventListener("click", showHideText_scared);
 
 //functions//
 
+
+
+
+//////////////////////   input name   ///////////////////////////////
+
+function grabText() {
+    let textIn;
+    textIn = document.querySelector("#textIn1").value;
+
+    if( textIn.length < 1){ alert("Please enter a name! It can be fake."); return }
+
+
+    let textToAdd = document.createTextNode("Hello "+textIn+", prepare for a mediocre story!");
+
+let newP = document.createElement("P");
+
+newP.appendChild(textToAdd);
+
+let storage = document.querySelector("#storageDiv");
+
+    storage.appendChild(newP);
+
+  }
 
 
 ///////////////////////   intro    /////////////////////////////////////////
