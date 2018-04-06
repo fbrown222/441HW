@@ -82,19 +82,19 @@ function grabText() {
 
     if( textIn.length < 1){ alert("Please enter a name! It can be fake."); return }
 
-
     let textToAdd = document.createTextNode("Hello "+textIn+", prepare for a mediocre story!");
 
-let newP = document.createElement("P");
+    let newP = document.createElement("P");
 
-newP.appendChild(textToAdd);
+    newP.appendChild(textToAdd);
 
-let storage = document.querySelector("#storageDiv");
+    let storage = document.querySelector("#storageDiv");
 
     storage.appendChild(newP);
 
   }
 
+document.querySelector("#runButton").addEventListener( 'click',grabText);
 
 ///////////////////////   intro    /////////////////////////////////////////
 
