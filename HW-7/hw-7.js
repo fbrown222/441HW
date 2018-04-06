@@ -1753,4 +1753,4 @@ function showHideText_pickup() {
 
 
 
-  body.appendChild(div);
+//  body.appendChild(div); 
