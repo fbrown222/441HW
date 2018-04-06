@@ -391,11 +391,11 @@ function showHideText_staystill() {
             bt_throw_pic.hidden=true;
             bt_pick_up.hidden=true;
             bt_restart.hidden=true;
-            bt_turn_in_friend.hidden=false;
-            bt_turn_in_friend2.hidden=true;
-            bt_destroy.hidden=false;
+            bt_turn_in_friend.hidden=true;
+            bt_turn_in_friend2.hidden=false;
+            bt_destroy.hidden=true;
             bt_scared.hidden=true;
-            bt_destroy2.hidden=true;
+            bt_destroy2.hidden=false;
             bt_destroy3.hidden=true;
             bt_turn_in_friend3.hidden=true;
 
@@ -576,13 +576,13 @@ function showHideText_staystill() {
                 bt_throw_pic.hidden=true;
                 bt_pick_up.hidden=true;
                 bt_restart.hidden=true;
-                bt_turn_in_friend.hidden=false;
+                bt_turn_in_friend.hidden=true;
                 bt_turn_in_friend2.hidden=true;
-                bt_destroy.hidden=false;
+                bt_destroy.hidden=true;
                 bt_scared.hidden=true;
                 bt_destroy2.hidden=true;
-                bt_destroy3.hidden=true;
-                bt_turn_in_friend3.hidden=true;
+                bt_destroy3.hidden=false;
+                bt_turn_in_friend3.hidden=false;
 
 
 
@@ -1398,7 +1398,7 @@ function showHideText_run() {
           bt_window.hidden=true;
           bt_throw_pic.hidden=true;
           bt_pick_up.hidden=true;
-          bt_restart.hidden=false;
+          bt_restart.hidden=true;
           bt_turn_in_friend.hidden=true;
           bt_turn_in_friend2.hidden=true;
           bt_destroy.hidden=true;
@@ -1675,11 +1675,11 @@ function showHideText_pickup() {
       bt_throw_pic.hidden=true;
       bt_pick_up.hidden=true;
       bt_restart.hidden=true;
-      bt_turn_in_friend.hidden=true;
-      bt_turn_in_friend2.hidden=false;
-      bt_destroy.hidden=true;
+      bt_turn_in_friend.hidden=false;
+      bt_turn_in_friend2.hidden=true;
+      bt_destroy.hidden=false;
       bt_scared.hidden=true;
-      bt_destroy2.hidden=false;
+      bt_destroy2.hidden=true;
       bt_destroy3.hidden=true;
       bt_turn_in_friend3.hidden=true;
 
