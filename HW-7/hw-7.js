@@ -1385,7 +1385,7 @@ function showHideText_run() {
       }
     }
 
-
+/* ended up not using this function
     ////////////////////////   scared   ///////////////////////////////
 
 
@@ -1474,7 +1474,7 @@ function showHideText_run() {
 
 
         }
-      }
+      } */
 
 
 ///////////////////////////   grab cross   /////////////////////////////////
