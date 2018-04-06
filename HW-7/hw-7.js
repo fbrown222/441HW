@@ -60,7 +60,6 @@ bt_grab_cross.addEventListener("click", showHideText_cross);
 bt_window.addEventListener("click", showHideText_window);
 bt_throw_pic.addEventListener("click", showHideText_throw);
 bt_pick_up.addEventListener("click", showHideText_pickup);
-bt_restart.addEventListener("click", showHideText_intro);
 bt_turn_in_friend.addEventListener("click", showHideText_friend);
 bt_turn_in_friend2.addEventListener("click", showHideText_friend2);
 bt_turn_in_friend3.addEventListener("click", showHideText_friend3);
