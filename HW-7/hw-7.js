@@ -21,7 +21,7 @@ let text_window = document.querySelector(".window");
 let text_destroy = document.querySelector(".destroy");
 let text_destroy2 = document.querySelector(".destroy2");
 let text_destroy3 = document.querySelector(".destroy3");
-let text_scared = document.querySelector(".scared");
+//let text_scared = document.querySelector(".scared");
 let text_turn_in_friend = document.querySelector(".turn_in_friend");
 let text_turn_in_friend2 = document.querySelector(".turn_in_friend2");
 let text_turn_in_friend3 = document.querySelector(".turn_in_friend3");
@@ -45,7 +45,7 @@ let bt_turn_in_friend3 = document.querySelector('#bturn-in-friend3');
 let bt_destroy = document.querySelector('#bdestroy');
 let bt_destroy2 = document.querySelector('#bdestroy2');
 let bt_destroy3 = document.querySelector('#bdestroy3');
-let bt_scared = document.querySelector('#bscared');
+//let bt_scared = document.querySelector('#bscared');
 
 
 //adding button events//
@@ -66,7 +66,7 @@ bt_turn_in_friend3.addEventListener("click", showHideText_friend3);
 bt_destroy.addEventListener("click", showHideText_destroy);
 bt_destroy2.addEventListener("click", showHideText_destroy2);
 bt_destroy3.addEventListener("click", showHideText_destroy3);
-bt_scared.addEventListener("click", showHideText_scared);
+//bt_scared.addEventListener("click", showHideText_scared);
 
 //functions//
 
