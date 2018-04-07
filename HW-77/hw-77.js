@@ -57,7 +57,7 @@ function showHideText_Scream() {
     } else {
       bt_scream.hidden =false
       text_intro.hidden = false;
-      formEl1.hidden = true;
+      formEl1.hidden = false;
       text_Scream.hidden = true;
       text_Stay.hidden= true;
       bt_stay.hidden=false;
@@ -87,7 +87,7 @@ function showHideText_Stay() {
     } else {
       bt_stay.hidden = false;
       text_intro.hidden = false;
-      formEl1.hidden = true;
+      formEl1.hidden = false;
       text_Scream.hidden = true;
       text_Stay.hidden= true;
       bt_scream.hidden=false;
