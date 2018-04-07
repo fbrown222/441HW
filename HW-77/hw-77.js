@@ -3,6 +3,7 @@ let body = document.body;
 let noob = document.createElement("div");
 let bt_scream = document.querySelector('#bscream');
 let bt_stay = document.querySelector('#bstay');
+let bt_retry = document.querySelector('#bretry');
 let text_intro = document.querySelector(".intro");
 let text_Scream = document.querySelector(".Scream");
 let text_Stay = document.querySelector(".Stay");
@@ -47,21 +48,23 @@ function showHideText_Scream() {
         text_Scream.hidden = false;
         text_Stay.hidden= true;
         bt_stay.hidden=true;
+        bt_retry.hidden=false;
         noob.hidden=true;
 
         body.style.background = "#71aff2";
 
 
     } else {
-      bt_scream.innerText = "Retry?";
+      bt_scream.hidden =false
       text_intro.hidden = false;
       formEl1.hidden = true;
       text_Scream.hidden = true;
       text_Stay.hidden= true;
-      bt_stay.hidden=true;
+      bt_stay.hidden=false;
+      bt_retry.hidden=true;
       noob.hidden=true;
 
-      
+
     }
 
 }
@@ -75,18 +78,20 @@ function showHideText_Stay() {
         text_Scream.hidden = true;
         text_Stay.hidden= false;
         bt_scream.hidden=true;
+        bt_retry.hidden=false;
         noob.hidden=true;
 
         body.style.background = "#b170f1";
 
 
     } else {
-      bt_stay.innerText = "Retry?";
+      bt_stay.hidden = false;
       text_intro.hidden = false;
       formEl1.hidden = true;
       text_Scream.hidden = true;
       text_Stay.hidden= true;
-      bt_scream.hidden=true;
+      bt_scream.hidden=false;
+      bt_retry.hidden=true;
       noob.hidden=true;
 
         ;
