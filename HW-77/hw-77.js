@@ -76,7 +76,7 @@ function showHideText_Stay() {
         text_intro.hidden = true;
         formEl1.hidden = true;
         text_Scream.hidden = true;
-        text_Stay.hidden= true;
+        text_Stay.hidden= false;
         bt_scream.hidden=true;
         bt_retry.hidden=false;
         noob.hidden=true;
@@ -94,7 +94,7 @@ function showHideText_Stay() {
       bt_retry.hidden=true;
       noob.hidden=true;
 
-        
+
     }
 
 }
