@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Choose Your Story</title>
+    <meta name="author" content="Ferrol Brown">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="./style.css">
+</head>
+<body>
+
+  <form class="nameForm" action="#" method="post">
+      <input type="text" name="textInput" placeholder="Enter a name" id="textIn1">
+      <button type="button" name="button" id="runButton" onclick="this.disabled =true;">enter</button>
+    </form>
+
+    <div class="storageDiv" id="storageDiv">
+       </div>
+
+
+
+     <div class="intro">
+
+     <p>You wake up in a house you don't recognize, laying on the floor. You look around
+      a little, but you have a suden headache and so you close your eyes for a few seconds.
+    When you open them again, you see a ghost hovering two feet above you, looking at you.<br>
+  What do you do?</p>
+
+      </div>
+
+      <div class="scream">
+      <br>
+      <button id="bscream">Scream and run away!</button>
+    </div>
+    <div class="stay">
+      <button id="bstay">Still still and don't make a sound.</button>
+    </div>
+
+
+
+    <div class="Scream" hidden="true">
+
+        <p>The ghost flies to the corner of the room, making a screaming face, but no sound.
+      The room begins to shake. You see a door open to the outside, and a wooden cross on
+    the dresser next to you.</p>
+       </div>
+
+       <div class="Stay" hidden="true">
+
+           <p>The ghost slowly floats to its feet a few feet from your side. You slowly stand
+      up and see she is standing by a dresser. She is looking at you, but then turns,
+     looks and points to a picture on the dresser and dissappears.</p>
+          </div>
+
+
+
+<script src="./hw-7.js"></script>
+</body>
+</html>

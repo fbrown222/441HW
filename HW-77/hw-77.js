@@ -1,0 +1,98 @@
+
+let body = document.body;
+let noob = document.createElement("div");
+let bt_scream = document.querySelector('#bscream');
+let bt_stay = document.querySelector('#bstay');
+let text_intro = document.querySelector(".intro");
+let text_Scream = document.querySelector(".Scream");
+let text_Stay = document.querySelector(".Stay");
+let divEl1 = document.querySelector(".storageDiv");
+let formEl1 = document.querySelector(".nameForm");
+
+
+bt_scream.addEventListener("click", showHideText_Scream);
+bt_stay.addEventListener("click", showHideText_Stay);
+
+
+
+function grabText() {
+    let textIn;
+    textIn = document.querySelector("#textIn1").value;
+
+    if( textIn.length < 1){ alert("Please refresh and enter a name! Anything! It can be fake!"); return }
+
+
+    let textToAdd = document.createTextNode("Hello "+textIn+" welcome to a very short story!");
+
+
+    let newP = document.createElement("P");
+
+
+    newP.appendChild(textToAdd);
+
+    let storage = document.querySelector("#storageDiv");
+
+    storage.appendChild(newP);
+
+}
+
+
+
+
+function showHideText_Scream() {
+    if(text_Scream.hidden){
+        bt_scream.innerText = "Retry?";
+        text_intro.hidden = true;
+        formEl1.hidden = true;
+        text_Scream.hidden = false;
+        text_Stay.hidden= true;
+        bt_stay.hidden=true;
+        noob.hidden=true;
+
+        body.style.background = "#71aff2";
+
+
+    } else {
+      bt_scream.innerText = "Retry?";
+      text_intro.hidden = true;
+      formEl1.hidden = true;
+      text_Scream.hidden = true;
+      text_Stay.hidden= false;
+      bt_stay.hidden=true;
+      noob.hidden=true;
+
+        body.style.background = "#030303";
+    }
+
+}
+
+
+function showHideText_Stay() {
+    if(text_Stay.hidden){
+        bt_stay.innerText = "Retry?";
+        text_intro.hidden = true;
+        formEl1.hidden = true;
+        text_Scream.hidden = true;
+        text_Stay.hidden= false;
+        bt_scream.hidden=true;
+        noob.hidden=true;
+
+        body.style.background = "#b170f1";
+
+
+    } else {
+      bt_scream.innerText = "Retry?";
+      text_intro.hidden = true;
+      formEl1.hidden = true;
+      text_Scream.hidden = false;
+      text_Stay.hidden= true;
+      bt_stay.hidden=true;
+      noob.hidden=true;
+
+        body.style.background = "#030303";
+    }
+
+}
+
+
+body.appendChild(noob);
