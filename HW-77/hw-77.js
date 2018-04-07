@@ -42,7 +42,7 @@ function grabText() {
 
 function showHideText_Scream() {
     if(text_Scream.hidden){
-        bt_scream.innerText = "Retry?";
+        bt_scream.hidden= true;
         text_intro.hidden = true;
         formEl1.hidden = true;
         text_Scream.hidden = false;
@@ -72,11 +72,11 @@ function showHideText_Scream() {
 
 function showHideText_Stay() {
     if(text_Stay.hidden){
-        bt_stay.innerText = "Retry?";
+        bt_stay.hidden = true;
         text_intro.hidden = true;
         formEl1.hidden = true;
         text_Scream.hidden = true;
-        text_Stay.hidden= false;
+        text_Stay.hidden= true;
         bt_scream.hidden=true;
         bt_retry.hidden=false;
         noob.hidden=true;
