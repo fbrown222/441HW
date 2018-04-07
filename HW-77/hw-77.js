@@ -37,6 +37,8 @@ function grabText() {
 
 }
 
+document.querySelector("#runButton").addEventListener( 'click', grabText);
+
 
 
 
