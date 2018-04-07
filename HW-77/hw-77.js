@@ -94,7 +94,7 @@ function showHideText_Stay() {
       bt_retry.hidden=true;
       noob.hidden=true;
 
-        ;
+        
     }
 
 }
