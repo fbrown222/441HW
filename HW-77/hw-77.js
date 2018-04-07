@@ -54,14 +54,14 @@ function showHideText_Scream() {
 
     } else {
       bt_scream.innerText = "Retry?";
-      text_intro.hidden = true;
+      text_intro.hidden = false;
       formEl1.hidden = true;
       text_Scream.hidden = true;
-      text_Stay.hidden= false;
+      text_Stay.hidden= true;
       bt_stay.hidden=true;
       noob.hidden=true;
 
-        body.style.background = "#030303";
+      
     }
 
 }
@@ -81,15 +81,15 @@ function showHideText_Stay() {
 
 
     } else {
-      bt_scream.innerText = "Retry?";
-      text_intro.hidden = true;
+      bt_stay.innerText = "Retry?";
+      text_intro.hidden = false;
       formEl1.hidden = true;
-      text_Scream.hidden = false;
+      text_Scream.hidden = true;
       text_Stay.hidden= true;
-      bt_stay.hidden=true;
+      bt_scream.hidden=true;
       noob.hidden=true;
 
-        body.style.background = "#030303";
+        ;
     }
 
 }
