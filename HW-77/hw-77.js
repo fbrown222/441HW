@@ -11,8 +11,15 @@ let divEl1 = document.querySelector(".storageDiv");
 let formEl1 = document.querySelector(".nameForm");
 
 
+
+
 bt_scream.addEventListener("click", showHideText_Scream);
 bt_stay.addEventListener("click", showHideText_Stay);
+
+
+
+body.style.background = "#f7d8ff";
+
 
 
 
@@ -23,7 +30,7 @@ function grabText() {
     if( textIn.length < 1){ alert("Please refresh and enter a name! Anything! It can be fake!"); return }
 
 
-    let textToAdd = document.createTextNode("Hello "+textIn+" welcome to a very short story!");
+    let textToAdd = document.createTextNode("Hello "+textIn+", welcome to a very short story!");
 
 
     let newP = document.createElement("P");
@@ -54,6 +61,9 @@ function showHideText_Scream() {
         noob.hidden=true;
 
         body.style.background = "#71aff2";
+
+        var pic = new Image (388, 456);
+        pic.src = "images/lily.jpg"
 
 
     } else {
@@ -101,5 +111,5 @@ function showHideText_Stay() {
 
 }
 
-
+noob.appendChild(pic);
 body.appendChild(noob);
