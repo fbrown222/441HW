@@ -62,6 +62,12 @@ function showHideText_Scream() {
 
         body.style.background = "#71aff2";
 
+function alertPop1(){
+        alert("OH NOOOOOO!!!!!");
+}
+
+setTimeout( alertPop1, 2000 );
+
 
 
     } else {
@@ -92,6 +98,12 @@ function showHideText_Stay() {
         noob.hidden=true;
 
         body.style.background = "#b170f1";
+
+        function alertPop2(){
+                alert("awww yissss!!!!!");
+        }
+
+        setTimeout( alertPop2, 2000 );
 
 
     } else {
