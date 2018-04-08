@@ -66,7 +66,7 @@ function alertPop1(){
         alert("OH NOOOOOO!!!!!");
 }
 
-setTimeout( alertPop1, 2000 );
+setTimeout( alertPop1, 500 );
 
 
 
@@ -103,7 +103,7 @@ function showHideText_Stay() {
                 alert("awww yissss!!!!!");
         }
 
-        setTimeout( alertPop2, 2000 );
+        setTimeout( alertPop2, 500 );
 
 
     } else {
