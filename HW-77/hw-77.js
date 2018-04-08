@@ -3,7 +3,7 @@ let body = document.body;
 let noob = document.createElement("div");
 let bt_scream = document.querySelector('#bscream');
 let bt_stay = document.querySelector('#bstay');
-let bt_retry = document.querySelector('#bretry');
+//let bt_retry = document.querySelector('#bretry');
 let text_intro = document.querySelector(".intro");
 let text_Scream = document.querySelector(".Scream");
 let text_Stay = document.querySelector(".Stay");
@@ -57,7 +57,7 @@ function showHideText_Scream() {
         text_Scream.hidden = false;
         text_Stay.hidden= true;
         bt_stay.hidden=true;
-        bt_retry.hidden=false;
+      //  bt_retry.hidden=false;
         noob.hidden=true;
 
         body.style.background = "#71aff2";
@@ -71,7 +71,7 @@ function showHideText_Scream() {
       text_Scream.hidden = true;
       text_Stay.hidden= true;
       bt_stay.hidden=false;
-      bt_retry.hidden=true;
+    //  bt_retry.hidden=true;
       noob.hidden=false;
 
 
@@ -88,7 +88,7 @@ function showHideText_Stay() {
         text_Scream.hidden = true;
         text_Stay.hidden= false;
         bt_scream.hidden=true;
-        bt_retry.hidden=false;
+      //  bt_retry.hidden=false;
         noob.hidden=true;
 
         body.style.background = "#b170f1";
@@ -101,7 +101,7 @@ function showHideText_Stay() {
       text_Scream.hidden = true;
       text_Stay.hidden= true;
       bt_scream.hidden=false;
-      bt_retry.hidden=true;
+    //  bt_retry.hidden=true;
       noob.hidden=false;
 
 
