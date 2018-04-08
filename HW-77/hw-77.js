@@ -64,7 +64,7 @@ function showHideText_Scream() {
       text_Stay.hidden= true;
       bt_stay.hidden=false;
       bt_retry.hidden=true;
-      noob.hidden=true;
+      noob.hidden=false;
 
 
     }
@@ -94,7 +94,7 @@ function showHideText_Stay() {
       text_Stay.hidden= true;
       bt_scream.hidden=false;
       bt_retry.hidden=true;
-      noob.hidden=true;
+      noob.hidden=false;
 
 
     }
