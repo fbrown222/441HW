@@ -1,6 +1,4 @@
 
-/*      setting definitions and button events    */
-
 let body = document.body;
 let noob = document.createElement("div");
 let bt_scream = document.querySelector('#bscream');
@@ -24,9 +22,7 @@ body.style.background = "#f7d8ff";
 
 
 
-// funtions/////////////////////////////
 
-//name form ////
 function grabText() {
     let textIn;
     textIn = document.querySelector("#textIn1").value;
@@ -52,7 +48,6 @@ document.querySelector("#runButton").addEventListener( 'click', grabText);
 
 
 
-// page funtions with button selections//
 
 function showHideText_Scream() {
     if(text_Scream.hidden){
