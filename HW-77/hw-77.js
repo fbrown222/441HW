@@ -52,7 +52,7 @@ document.querySelector("#runButton").addEventListener( 'click', grabText);
 function showHideText_Scream() {
     if(text_Scream.hidden){
         bt_scream.hidden= true;
-        text_intro.hidden = true;
+        text_intro.hidden = false;
         formEl1.hidden = true;
         text_Scream.hidden = false;
         text_Stay.hidden= true;
@@ -83,7 +83,7 @@ function showHideText_Scream() {
 function showHideText_Stay() {
     if(text_Stay.hidden){
         bt_stay.hidden = true;
-        text_intro.hidden = true;
+        text_intro.hidden = false;
         formEl1.hidden = true;
         text_Scream.hidden = true;
         text_Stay.hidden= false;
