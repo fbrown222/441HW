@@ -62,8 +62,6 @@ function showHideText_Scream() {
 
         body.style.background = "#71aff2";
 
-        var pic = new Image (388, 456);
-        pic.src = "images/lily.jpg"
 
 
     } else {
@@ -111,5 +109,4 @@ function showHideText_Stay() {
 
 }
 
-noob.appendChild(pic);
 body.appendChild(noob);
