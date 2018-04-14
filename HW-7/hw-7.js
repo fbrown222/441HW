@@ -1,3 +1,5 @@
+//defining
+
 
 let body = document.body;
 let noob = document.createElement("div");
@@ -11,7 +13,7 @@ let divEl1 = document.querySelector(".storageDiv");
 let formEl1 = document.querySelector(".nameForm");
 
 
-
+//buttons
 
 bt_scream.addEventListener("click", showHideText_Scream);
 bt_stay.addEventListener("click", showHideText_Stay);
@@ -21,7 +23,7 @@ bt_stay.addEventListener("click", showHideText_Stay);
 body.style.background = "#f7d8ff";
 
 
-
+//form for name input
 
 function grabText() {
     let textIn;
@@ -47,7 +49,7 @@ function grabText() {
 document.querySelector("#runButton").addEventListener( 'click', grabText);
 
 
-
+//functions
 
 function showHideText_Scream() {
     if(text_Scream.hidden){
