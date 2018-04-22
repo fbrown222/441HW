@@ -42,7 +42,35 @@
 
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./hw-77.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+$(document).ready(function(){
+  getQuote();
+
+  var randomQuote;
+  var author;
+
+  function getQuote(){
+
+    var url ="http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json&json=?";
+    $.getJSON(url, function(data){
+      $(".quote").html('"'+data.quoteText+'"');
+
+      $(".author").html('-'+data.quoteAuthor);
+
+    });
+
+}
+
+$("#newQuote").on("click", function(){
+
+  getQuote();
+});
+
+});
+
+
+</script>
+<!--<script src="./hw-77.js"></script> -->
 </body>
 </html>

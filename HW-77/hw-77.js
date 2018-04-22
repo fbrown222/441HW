@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+/*$(document).ready(function(){
   getQuote();
 
   var randomQuote;
@@ -15,11 +15,7 @@ $(document).ready(function(){
 
     });
 
-
-
-
 }
-
 
 $("#newQuote").on("click", function(){
 
