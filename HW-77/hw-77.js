@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 
 
-};
+}
 
 
 $("#newQuote").on("click", function(){
