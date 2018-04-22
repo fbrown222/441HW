@@ -1,49 +1,29 @@
 
-var app = angular.module('WikiApp', ['ngAnimate']);
-app.controller('MainCtrl', function($scope, $http, $timeout) {
-  var form = $('form');
-  var close = $('.eks');
-  var input = $('input');
-  var search = $("#search");
-  var help = $("#help");
+$(document).ready(function(){
+  getQuote();
 
-  $scope.results = [];
+  var randomQuote;
+  var author;
 
-  close.on('click', function() {
-    form.toggleClass('open');
+  function getQuote(){
 
-    if (!form.hasClass('open') && $scope.searchTxt !== '' && typeof $scope.searchTxt !== 'undefined') {
-	    search.toggleClass('fullHeight')
-      help.toggleClass('hide');
-      $scope.searchTxt = '';
-    }
-    $scope.results = [];
-    $scope.$apply();
-  })
+    var url ="http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json&json=?";
+    $.getJSON(url, function(data){
+      $(".quote").html('"'+data.quoteText+'"');
 
-  input.on('transitionend webkitTransitionEnd oTransitionEnd', function() {
-    if (form.hasClass('open')) {
-      input.focus();
-    } else {
-      return;
-    }
-  })
+      $(".author").html('-'+data.quoteAuthor);
 
-  $scope.search = function() {
-    $scope.results = [];
-    help.addClass('hide');
-    search.removeClass('fullHeight');
-    var title = input.val();
-    var api = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=';
-    var cb = '&callback=JSON_CALLBACK';
-    var page = 'https://en.wikipedia.org/?curid=';
-
-    $http.jsonp(api + title + cb)
-    .success(function(data) {
-      var results = data.query.pages;
-      angular.forEach(results, function(v,k)  {
-        $scope.results.push({title: v.title, body: v.extract, page: page + v.pageid})
-      })
     });
-  }
+
+
+
+
+};
+
+
+$("#newQuote").on("click", function(){
+
+  getQuote();
+});
+
 });
