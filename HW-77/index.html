@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -9,72 +11,25 @@
     <link rel= "stylesheet" href="./style.css">
 </head>
 <body>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 
+<div id="city-name-wrapper">
+  <h2 class="text-center">Weather for:</h2>
+  <h2 class="text-center" id="cityname"></h2>
 
-  <div class="container-fluid">
-   <div>
-     <div class= "text-center">
-   <h1> Random Quote </h1>
-       </br>
-   <p>A quote for you:</p>
+  <div id="city-forecast">
+    <p class="weather-descr col-xs-12"></p>
+    <p class="temp col-xs-12"></p>
+    <p class="pressure col-xs-12"></p>
+    <p class="wind-spd col-xs-12"></p>
+    <div id="altit"></div>
+    <div id="latitude-val"></div>
 
-     <div style="text-align:center">
-   <button class= "btn btn-default" type="submit"id="newQuote">New Quote</button>
-     </div>
-
-   </div>
-
-
-
-<div class="quotes text-center">
-
-
-   <span class="quote"></span>
-     </br>
-     <span class="author"></span>
-
- </div>
+    <!-- forecast  -->
+  </div>
 </div>
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-
-
-
-
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-
-$(document).ready(function(){
-  getQuote();
-
-  var randomQuote;
-  var author;
-
-  function getQuote(){
-
-  //var url ="http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
-  //  $.getJSON(url, function(data){
-  //    $(".quote").html('"'+data.quoteText+'"');
-
-  //    $(".author").html('-'+data.quoteAuthor);
-
-//    });
-
-    $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
-  $("body").append(a[0].content + "<p>— " + a[0].title + "</p>")
-});
-
-}
-
-$("#newQuote").on("click", function(){
-
-  getQuote();
-});
-
-});
-
-
-</script>
-<!--<script src="./hw-77.js"></script> -->
 </body>
 </html>

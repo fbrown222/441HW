@@ -1,41 +1,16 @@
-body {
-  background-color: black;
-  font-family:"Times New Roman";
+body {}
+
+.temp, .pressure, .wind-spd, .weather-descr, #altit, #latitude-val {
+  font-size: 40px;
 }
 
-h1{
-  text-align:center;
-  color:white;
-  font-family:"Times New Roman";
+
+#cityname,
+.temp {
+  margin-top: 15px;
 }
 
-p{
-  color:white;
-  text-align:center;
-}
+#city-name-wrapper {
+  text-align: center;
 
-.button {
-  align:center;
-}
-
-.quotes{
- background-color:grey;
-  width: 33%;
-  margin-right: auto;
-  margin-left:auto;
-  border-radius: 5px;
-  margin-top:20px;
-  padding:20px;
-  height: auto;
-  color:white;
-}
-
-.quote{
-
-  font-size:30px;
-}
-
-.author{
-  font-size: 20px;
-  font-style:italic;
 }
