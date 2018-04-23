@@ -26,7 +26,7 @@ $(document).ready(function() {
         city_name = data["name"];
         country_name = data["sys"]["country"];
         weather_description = data["weather"][0]["description"];
-        temp = data["main"]["temp"];
+        temp = data["main"]["temp"]["imperial"];
         pressure = data["main"]["pressure"];
         wind_speed = data["wind"]["speed"];
 
