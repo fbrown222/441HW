@@ -1,7 +1,7 @@
 *** WEEK 9 ***
 
 
-live site: https://fbrown222.github.io/441HW/HW-77/
+live site: https://fbrown222.github.io/441HW/HW-9/
 
 
 Well, I don't know why I bother saying I had a difficult time everytime, because it should be apparent by now. I had A LOT of issues getting just ONE tutorial to work off of. For this site, I worked off of Marco Cubadda's (aka BeatenBones) work, "Simple JQuery and JSON with OpenWeatherMap API."
