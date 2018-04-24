@@ -18,8 +18,8 @@ $(document).ready(function() {
       var weather_description;
       var apiKey = "699b6e6504a91f6e2ac509b14902c8a1";
 
-      altitude_text.innerHTML = "Altitude is " + altitude;
-      latitude_text.innerHTML = "Latitude is " + lat;
+    //  altitude_text.innerHTML = "Altitude is " + altitude;
+    //  latitude_text.innerHTML = "Latitude is " + lat;
 
       $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + longit + "&units=imperial" + "&appid=" + apiKey, function(data) {
 
