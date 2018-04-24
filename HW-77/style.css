@@ -27,11 +27,18 @@ h2{
 
 }
 
-#text-center{
+#weather-announce{
   color: black;
   font-family: 'Gugi', cursive;
   text-align:center;
   font-size: 40;
+}
+
+#text-center{
+  color: black;
+  font-family: 'Gugi', cursive;
+  text-align:center;
+  font-size: 30;
 
 }
 
