@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    
+
 
 }
 
@@ -37,6 +37,7 @@ p{
 .temp, .pressure, .wind-spd, .weather-descr, #altit, #latitude-val {
   font-size: 20px;
   color: black;
+  font-family: 'Gugi', cursive;
 
 }
 
