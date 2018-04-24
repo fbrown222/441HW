@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    font-family: 'Gugi', cursive;
 
 }
 
@@ -27,7 +28,7 @@ h2{
 
 p{
   color: black;
-  font-family: 'Gugi', cursive;
+
   text-align:center;
 
 }
