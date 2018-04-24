@@ -27,7 +27,15 @@ h2{
 
 }
 
-#text-center, p{
+#text-center{
+  color: black;
+  font-family: 'Gugi', cursive;
+  text-align:center;
+  font-size: 40;
+
+}
+
+p{
   color: black;
   font-family: 'Gugi', cursive;
   text-align:center;
