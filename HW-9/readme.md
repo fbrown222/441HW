@@ -17,3 +17,6 @@ So, the bottom line is I understand how APIs work, but doing it on my own was pr
 I spent four days straight working on this, and I'm a little sad I didn't have a better result, but I'm happy that I was able to do something at least, and have it work.
 
 Although it does work, I have noticed from my end that the geolocation takes a LOOOOONG time to show results. This was quite frustrating, and it definitely could not be used for a real website.
+
+
+I had to manipulate the API link to change units from Kelvin to Fahrenheit, and I excluded some measurements that was originally in Cubadda's work. I wanted a simple website. 
