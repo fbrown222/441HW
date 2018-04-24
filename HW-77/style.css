@@ -8,6 +8,11 @@ body {
 
 }
 
+h2{
+  color: black;
+  text-align: center;
+}
+
 #whole-thing{
   background-color:grey;
   width: 33%;
@@ -24,10 +29,11 @@ p{
   color: black;
   font-family: 'Gugi', cursive;
   text-align:center;
+
 }
 
 .temp, .pressure, .wind-spd, .weather-descr, #altit, #latitude-val {
-  font-size: 40px;
+  font-size: 20px;
   color: black;
 
 }

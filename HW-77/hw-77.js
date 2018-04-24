@@ -31,7 +31,7 @@ $(document).ready(function() {
         wind_speed = data["wind"]["speed"];
 
         $("#cityname").html(city_name + " &#40;" + country_name + "&#41; " + "has " + weather_description);
-        $(".temp").html(temp);
+        $(".temp").html(temp+"∘F");
         $(".pressure").html(pressure + " mBar");
         $(".wind-spd").html(wind_speed + " m/s");
 
