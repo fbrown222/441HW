@@ -1,5 +1,8 @@
 body {
-  background-image: 
+  background-image: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA15417_hires.jpg");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 .temp, .pressure, .wind-spd, .weather-descr, #altit, #latitude-val {
