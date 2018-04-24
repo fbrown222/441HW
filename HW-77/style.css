@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
 body {
   background-image: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA15417_hires.jpg");
   background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+
+}
+
+#whole-thing{
+  background-color:grey;
+  width: 33%;
+  margin-right: auto;
+  margin-left:auto;
+  border-radius: 5px;
+  margin-top:20px;
+  padding:20px;
+  height: auto;
+
+}
+
+p{
+  color: black;
+  font-family: 'Gugi', cursive;
+  text-align:center;
 }
 
 .temp, .pressure, .wind-spd, .weather-descr, #altit, #latitude-val {
