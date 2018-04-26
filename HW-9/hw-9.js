@@ -1,9 +1,11 @@
 $(document).ready(function() {
+
   // geolocation enabled
 
   if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(showcityname);
 
+//definitions within function from API data
     function showcityname(position) {
       var lat = position.coords.latitude;
       var longit = position.coords.longitude;
@@ -18,9 +20,13 @@ $(document).ready(function() {
       var weather_description;
       var apiKey = "699b6e6504a91f6e2ac509b14902c8a1";
 
+
+//decided not to go show altitude or latitude to keep my site more simple.
     //  altitude_text.innerHTML = "Altitude is " + altitude;
     //  latitude_text.innerHTML = "Latitude is " + lat;
 
+
+//API
       $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + longit + "&units=imperial" + "&appid=" + apiKey, function(data) {
 
         city_name = data["name"];
