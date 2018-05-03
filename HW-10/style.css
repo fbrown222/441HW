@@ -3,6 +3,9 @@
 .topnav {
     background-color: #000000;
     overflow: hidden;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+
 }
 
 .topnav a {
