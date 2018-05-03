@@ -127,7 +127,7 @@ p{
 
 }
 
-.videos iframe{
+.videos iframe, video {
    margin: 0 auto;
    display: block;
    width: 560px;
