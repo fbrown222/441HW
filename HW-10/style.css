@@ -8,7 +8,7 @@ h1{
   font-family: 'Carrois Gothic SC', sans-serif;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+
 }
 
 
@@ -28,9 +28,12 @@ p{
 .links img{
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 120px;
- width: auto;
-  width: auto;
+  height: auto;
+ width: 40%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
 
 }
 
@@ -55,4 +58,14 @@ p{
   margin-right: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.videos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
 }
