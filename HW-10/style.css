@@ -121,11 +121,14 @@ p{
 }
 
 .videos{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  
 
+}
+
+.videos iframe{
+   margin: 0 auto;
+   display: block;
+   width: 560px;
 }
